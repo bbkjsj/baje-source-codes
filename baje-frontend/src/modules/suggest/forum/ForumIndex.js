@@ -13,10 +13,11 @@ import {
   Collapse,
   List,
   Tooltip,
-  Comment,
+  // Comment, // Will be imported from @ant-design/compatible
   Button,
   notification,
 } from "antd";
+import Comment from '@ant-design/compatible/lib/comment'; // Added for AntD v5
 import {
   DislikeOutlined,
   LikeOutlined,

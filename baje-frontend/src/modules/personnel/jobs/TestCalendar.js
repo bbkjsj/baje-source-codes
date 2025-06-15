@@ -1,5 +1,5 @@
 import React from "react";
-import BigCalendar from "jalali-react-big-calendar";
+// import BigCalendar from "jalali-react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import styled from "styled-components";
 const events = [
@@ -29,7 +29,8 @@ const events = [
 const TestCalendar = () => {
   return (
     <StyledCalendar>
-      <BigCalendar events={events} />
+      {/* <BigCalendar events={events} /> */}
+      <div>TODO: Replace jalali-react-big-calendar</div>
     </StyledCalendar>
   );
 };

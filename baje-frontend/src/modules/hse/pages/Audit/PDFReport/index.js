@@ -1,51 +1,57 @@
 import React, { useEffect, useState } from "react";
-import {
-  PDFViewer,
-  StyleSheet,
-  Font,
-  PDFDownloadLink,
-} from "@react-pdf/renderer";
+// import {
+//   PDFViewer,
+//   StyleSheet,
+//   Font,
+//   PDFDownloadLink,
+// } from "@react-pdf/renderer";
 // import Peyda from "./../../../../../assets/fonts/other/b_nazanin.ttf";
-import Peyda from "./../../../../../assets/fonts/Peyda/Peyda-Medium/fonts/Peyda-Medium.ttf";
-import PeydaSemiBold from "./../../../../../assets/fonts/Peyda/Peyda-SemiBold/fonts/Peyda-SemiBold.ttf";
-import PeydaBold from "./../../../../../assets/fonts/Peyda/Peyda-Bold/fonts/Peyda-Bold.ttf";
-import PeydaBlack from "./../../../../../assets/fonts/Peyda/Peyda-Black/fonts/Peyda-Black.ttf";
+// import Peyda from "./../../../../../assets/fonts/Peyda/Peyda-Medium/fonts/Peyda-Medium.ttf";
+// import PeydaSemiBold from "./../../../../../assets/fonts/Peyda/Peyda-SemiBold/fonts/Peyda-SemiBold.ttf";
+// import PeydaBold from "./../../../../../assets/fonts/Peyda/Peyda-Bold/fonts/Peyda-Bold.ttf";
+// import PeydaBlack from "./../../../../../assets/fonts/Peyda/Peyda-Black/fonts/Peyda-Black.ttf";
 import { useRouteMatch } from "react-router";
 import { getAudit } from "modules/hse/api/audit";
 import LoadingLogo from "components/general/LoadingLogo";
 import ContentTop from "components/general/ContentTop";
 import { pageNames } from "constant";
 import GoBackBtn from "components/GoBackBtn";
-import PDFDoucument from "./PDFDocumnet";
+import PDFDoucument from "./PDFDocumnet"; // This component will also be stubbed
 import { Typography } from "antd";
-import useIsMobile from "hooks/useIsMobile";
+import useIsMobile from "hooks/useIsMobile"; // Assuming this is a different hook, not the one removed
 import AppButton from "components/general/AppButton";
 import { dateToJalali } from "_helpers";
 
-const AuditPDFRetport = () => {
-  const isMobile = useIsMobile();
+// Mock Font object if it's used by PDFDocument or other components
+const Font = {
+  register: () => {},
+  getRegisteredFonts: () => [],
+};
 
-  Font.register({
-    // src: Peyda,
-    family: "peyda",
-    fonts: [
-      {
-        src: Peyda,
-      },
-      {
-        src: PeydaSemiBold,
-        fontStyle: "semibold",
-      },
-      {
-        src: PeydaBold,
-        fontStyle: "bold",
-      },
-      {
-        src: PeydaBlack,
-        fontStyle: "black",
-      },
-    ],
-  });
+const AuditPDFRetport = () => {
+  const isMobile = useIsMobile(); // Assuming this is a valid custom hook that remains
+
+  // Font.register({
+  //   // src: Peyda,
+  //   family: "peyda",
+  //   fonts: [
+  //     {
+  //       src: Peyda,
+  //     },
+  //     {
+  //       src: PeydaSemiBold,
+  //       fontStyle: "semibold",
+  //     },
+  //     {
+  //       src: PeydaBold,
+  //       fontStyle: "bold",
+  //     },
+  //     {
+  //       src: PeydaBlack,
+  //       fontStyle: "black",
+  //     },
+  //   ],
+  // });
   const {
     params: { id: auditId },
   } = useRouteMatch();
@@ -118,6 +124,12 @@ const AuditPDFRetport = () => {
         امکان خروجی گرفتن بازرسی به اتمام نرسیده وجود ندارد
       </Typography.Title>
     );
+
+  // Placeholder for PDFDownloadLink and PDFViewer
+  const PDFDownloadLinkPlaceholder = ({ document, fileName, children }) => <div>{children}</div>;
+  const PDFViewerPlaceholder = ({ children }) => <div style={{width: '100%', height: '500px', border: '1px solid black', overflow: 'auto'}}>{children}</div>;
+
+
   return (
     <>
       <ContentTop
@@ -130,30 +142,45 @@ const AuditPDFRetport = () => {
       <GoBackBtn />
 
       {isMobile ? (
-        <PDFDownloadLink
-          document={<PDFDoucument audit={state.audit} />}
-          fileName={`audit-report${
-            state.audit.id ? "-" + state.audit.id : ""
-          }-${dateToJalali(new Date())}`}
+        // <PDFDownloadLink
+        //   document={<PDFDoucument audit={state.audit} />}
+        //   fileName={`audit-report${
+        //     state.audit.id ? "-" + state.audit.id : ""
+        //   }-${dateToJalali(new Date())}`}
+        // >
+        //   {({ blob, url, loading, error }) =>
+        //     loading ? (
+        //       <LoadingLogo />
+        //     ) : (
+        //       <AppButton
+        //         className="mx-auto big-btn mt-3"
+        //         variant="primary"
+        //         size="large"
+        //       >
+        //         دانلود فایل PDF
+        //       </AppButton>
+        //     )
+        //   }
+        // </PDFDownloadLink>
+        <PDFDownloadLinkPlaceholder
+          document={<div>PDF Document Placeholder for Download</div>}
+          fileName="audit-report.pdf"
         >
-          {({ blob, url, loading, error }) =>
-            loading ? (
-              <LoadingLogo />
-            ) : (
-              <AppButton
-                className="mx-auto big-btn mt-3"
-                variant="primary"
-                size="large"
-              >
-                دانلود فایل PDF
-              </AppButton>
-            )
-          }
-        </PDFDownloadLink>
+           <AppButton
+             className="mx-auto big-btn mt-3"
+             variant="primary"
+             size="large"
+           >
+             دانلود فایل PDF (Placeholder)
+           </AppButton>
+        </PDFDownloadLinkPlaceholder>
       ) : (
-        <PDFViewer width="100%" height={isMobile ? 480 : 1500}>
-          <PDFDoucument audit={state.audit} />
-        </PDFViewer>
+        // <PDFViewer width="100%" height={isMobile ? 480 : 1500}>
+        //   <PDFDoucument audit={state.audit} />
+        // </PDFViewer>
+        <PDFViewerPlaceholder>
+          <PDFDoucument audit={state.audit} /> {/* This will render its placeholder version */}
+        </PDFViewerPlaceholder>
       )}
     </>
   );

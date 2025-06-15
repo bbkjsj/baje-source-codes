@@ -1,6 +1,11 @@
 import React from "react";
-import { StyleSheet, Image, View } from "@react-pdf/renderer";
+// import { StyleSheet, Image, View } from "@react-pdf/renderer";
 import { IText, Row } from "./componnets";
+
+// Placeholder for @react-pdf/renderer Image component
+const Image = ({ src, style }) => <img src={src} style={style} alt="PDF "/>;
+const View = ({style, children}) => <div style={style}>{children}</div>;
+
 
 const Footer = ({ audit }) => {
   const { operator_first_name, operator_last_name } = audit;
@@ -42,7 +47,7 @@ const Footer = ({ audit }) => {
       <View style={{ flex: 1, justifyContent: "flex-end" }}>
         <Row justify="space-between" align="flex-end" mX={10} mY={15}>
           <Image
-            source={require("./../../../../../assets/img/logo.png")}
+            src={require("./../../../../../assets/img/logo.png")} // require might need adjustment for web
             style={{ width: 30, height: 30 }}
           />
           <View style={{ alignItems: "flex-end" }}>
@@ -72,12 +77,15 @@ const Footer = ({ audit }) => {
 
 export default Footer;
 
-const styles = StyleSheet.create({
+// Original StyleSheet replaced with simple style object for the placeholder
+const styles = {
   container: {
-    borderWidth: 0.8,
+    border: "0.8px solid black", // Adjusted for web
     borderRadius: 1,
-    marginHorizontal: 10,
+    margin: "10px", // Adjusted for web
     marginTop: 5,
     height: 150,
+    display: 'flex', // Added for Row semantics
+    flexDirection: 'row' // Added for Row semantics
   },
-});
+};

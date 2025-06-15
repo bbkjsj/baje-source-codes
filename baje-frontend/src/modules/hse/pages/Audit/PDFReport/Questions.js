@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View } from "@react-pdf/renderer";
+// import { StyleSheet, View } from "@react-pdf/renderer";
 import { IText, Row } from "./componnets";
 import { Container } from "./componnets";
 import { criticalValues } from "modules/hse/constant";
@@ -35,8 +35,9 @@ const Questions = ({ audit }) => {
       .filter((item) => item.answer)
       .reduce((pre, current) => parseInt(pre) + 4 * current.weight_factor, [0]);
 
+  // Placeholder for PDF View
   return (
-    <View style={styles.container}>
+    <div style={styles.container}>
       <Row>
         <Container
           pY={10}
@@ -116,7 +117,7 @@ const Questions = ({ audit }) => {
               {!question.answer
                 ? ""
                 : question.critical
-                    .split(",")
+                    ?.split(",")
                     .find((item) => item === question.answer)
                 ? "*"
                 : ""}
@@ -156,7 +157,7 @@ const Questions = ({ audit }) => {
                 ? "بدون پاسخ"
                 : criticalValues(!!question.is_reverse)[question.type].find(
                     (item) => item.value === question.answer
-                  ).label}
+                  )?.label}
             </IText>
           </Container>
           <Container align="flex-end" flex={3} style={{ borderWidth: 0.5 }}>
@@ -177,7 +178,7 @@ const Questions = ({ audit }) => {
       <Row>
         <Container flex={4} style={{ borderWidth: 0.5 }}>
           <Row justify="space-between">
-            <View />
+            {/* Placeholder for View */} <div />
             <Row>
               <IText>100</IText>
               <IText mX={5}>از</IText>
@@ -219,18 +220,19 @@ const Questions = ({ audit }) => {
           ? "عدم صدور مجوز به خاطر نرسیدن به حدنصاب ممیزی"
           : `صدور مجوز فعالیت`}
       </IText>
-    </View>
+    </div>
   );
 };
 
 export default Questions;
 
-const styles = StyleSheet.create({
+// Original StyleSheet replaced with simple style object for the placeholder
+const styles = {
   container: {
-    borderWidth: 1.5,
+    border: "1.5px solid black", // Adjusted for web
     borderRadius: 1,
-    marginHorizontal: 10,
+    margin: "10px", // Adjusted for web
     marginTop: 5,
   },
-  cellContainer: { borderWidth: 0.5, alignItems: "center" },
-});
+  cellContainer: { borderWidth: 0.5, alignItems: "center" }, // This would need to be applied via inline styles or CSS classes if used
+};

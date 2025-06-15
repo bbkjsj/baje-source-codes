@@ -10,7 +10,7 @@ import "./assets/css/ReactToastify.css";
 import NewContextProvider from "contex/New-Context";
 import "./assets/fonts/Peyda/css/Peyda-font.css";
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import "react-responsive-tabs/styles.css";
+// import "react-responsive-tabs/styles.css";
 import App from "./App";
 import faIR from "antd/es/locale/fa_IR";
 import { register } from "./serviceWorker";

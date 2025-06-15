@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createRef } from "react";
-import BigCalendar from "jalali-react-big-calendar";
+// import BigCalendar from "jalali-react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import styled from "styled-components";
 import MenuInlineBtn from "components/MenuInlineBtn";
@@ -164,7 +164,7 @@ const AssignementPreview = ({
     <Spin ref={ref} spinning={loading}>
       <Row id={"content"}>
         <StyledCalendar>
-          <BigCalendar
+          {/* <BigCalendar
             eventPropGetter={eventStyleGetter}
             defaultDate={new Date(toFromDate[0])}
             views={{
@@ -173,11 +173,12 @@ const AssignementPreview = ({
             }}
             style={{ marginLeft: "20px" }}
             events={events}
-          />
+          /> */}
+          <div>TODO: Replace jalali-react-big-calendar</div>
         </StyledCalendar>
 
         <StyledCalendar>
-          <BigCalendar
+          {/* <BigCalendar
             eventPropGetter={eventStyleGetter}
             defaultDate={addDays(new Date(toFromDate[0]), 30)}
             views={{
@@ -185,7 +186,8 @@ const AssignementPreview = ({
               week: false,
             }}
             events={events}
-          />
+          /> */}
+          <div>TODO: Replace jalali-react-big-calendar</div>
         </StyledCalendar>
       </Row>
 

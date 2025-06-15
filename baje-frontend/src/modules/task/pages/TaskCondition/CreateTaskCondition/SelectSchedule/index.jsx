@@ -12,7 +12,7 @@ import DailySchedule from "./DailySchedule";
 import MonthlySchedule from "./MonthlySchedule";
 import WeeklySchedule from "./WeeklySchedule";
 import YearlySchedule from "./YearlySchedule";
-import DatePicker from "react-datepicker2";
+// import DatePicker from "react-datepicker2";
 import moment from "moment";
 
 const CreateTaskConditionStep3 = () => {
@@ -71,7 +71,7 @@ const CreateTaskConditionStep3 = () => {
           <Row className="mt-3" gutter={16} align="middle">
             <Col md={6} sm={24} xs={24}>
               <p>از تاریخ</p>
-              <DatePicker
+              {/* <DatePicker
                 value={state.fromDate}
                 className="w-100 mt-4"
                 inputFormat={"YYYY/MM/DD"}
@@ -81,7 +81,8 @@ const CreateTaskConditionStep3 = () => {
                 min={today}
                 timePicker={false}
                 //max={state.toDate}
-              />
+              /> */}
+              <div>TODO: Replace react-datepicker2</div>
 
               {/* <Calendar
               value={{ from: state.fromDate, to: state.toDate }}
@@ -94,7 +95,7 @@ const CreateTaskConditionStep3 = () => {
                 <>
                   <p>تا تاریخ</p>
 
-                  <DatePicker
+                  {/* <DatePicker
                     value={state.toDate}
                     className="w-100 mt-4"
                     onChange={handleChangeToDate}
@@ -103,7 +104,8 @@ const CreateTaskConditionStep3 = () => {
                     inputJalaaliFormat={"jYYYY/jMM/jDD"}
                     min={fromDate}
                     timePicker={false}
-                  />
+                  /> */}
+                  <div>TODO: Replace react-datepicker2</div>
                 </>
               )}
             </Col>

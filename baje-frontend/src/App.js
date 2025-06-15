@@ -29,7 +29,7 @@ import { register } from "./serviceWorker";
 import { setCurrentContract } from "./store/action/currentContract";
 import { setCurrentOffice } from "./store/action/currentOffice";
 import { toast } from "react-toastify";
-import useMobileDetect from "use-mobile-detect-hook";
+// import useMobileDetect from "use-mobile-detect-hook";
 import WelcomeSplash from "components/WelcomeSplash";
 import ErrorBoundary from "components/ErrorBoundary";
 
@@ -47,7 +47,8 @@ function MainApp() {
   const [loading, setLoading] = useState(true);
   const [showSplash, setShowSplash] = useState(true);
   const newContext = useContext(NewContext);
-  const { isMobile } = useMobileDetect();
+  // const { isMobile } = useMobileDetect();
+  const isMobile = () => false; // TODO: Replace with react-device-detect logic
   const location = useLocation();
   const history = useHistory();
   const dispatch = useDispatch();

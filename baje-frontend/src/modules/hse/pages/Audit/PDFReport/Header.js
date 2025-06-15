@@ -1,7 +1,12 @@
 import React from "react";
-import { Image, View } from "@react-pdf/renderer";
+// import { Image, View } from "@react-pdf/renderer";
 import { Row, IText } from "./componnets";
 import moment from "moment-jalaali";
+
+// Placeholder for @react-pdf/renderer Image component
+const Image = ({ src, style }) => <img src={src} style={style} alt="PDF "/>;
+const View = ({style, children}) => <div style={style}>{children}</div>;
+
 
 const Header = ({ audit }) => {
   return (
@@ -32,7 +37,7 @@ const Header = ({ audit }) => {
       </View>
       <View style={{ width: 80, alignItems: "center" }}>
         <Image
-          source={require("./../../../../../assets/img/logo.png")}
+          src={require("./../../../../../assets/img/logo.png")} // require might need adjustment for web
           style={{ width: 70, height: 70 }}
         />
         {/* <IText size={6}>شرکت کاوشگران نصر بافق</IText> */}

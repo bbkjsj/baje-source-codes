@@ -17,10 +17,11 @@ import AppButton from "components/general/AppButton";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import { aboutText, pageNames } from "constant";
 import MobileLogin from "./MobileLogin";
-import useMobileDetect from "use-mobile-detect-hook";
+// import useMobileDetect from "use-mobile-detect-hook";
 
 const NewLogin = () => {
-  const { isMobile } = useMobileDetect();
+  // const { isMobile } = useMobileDetect();
+  const isMobile = () => false; // TODO: Replace with react-device-detect logic
   const [
     loading,
     onSubmit,
@@ -35,7 +36,7 @@ const NewLogin = () => {
     if (!isMobile() && step == 0) {
       setStep(1);
     }
-  }, []);
+  }, [step, setStep]); // Added step and setStep to dependency array
 
   return (
     <>
@@ -45,7 +46,7 @@ const NewLogin = () => {
         close={() => setShowAbout(false)}
         text={aboutText}
       />
-      {isMobile() && step == 0 ? (
+      {isMobile() && step == 0 ? ( // This will currently always be false
         <MobileLogin setStep={setStep} />
       ) : (
         <Container className="logins">

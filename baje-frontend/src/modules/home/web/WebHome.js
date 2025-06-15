@@ -1,16 +1,14 @@
-import { Bar, Doughnut, Line, Pie, Polar, defaults } from "react-chartjs-2";
+import { Bar, Doughnut, Line, Pie, PolarArea } from "react-chartjs-2"; // Corrected Polar to PolarArea
+import { Chart } from 'chart.js';
 import { Col, Row } from "antd";
 import React, { useEffect, useMemo, useState } from "react";
 
 import { Redirect } from "react-router-dom";
 import { pageNames } from "constant";
 import styled from "styled-components";
-import useMobileDetect from "use-mobile-detect-hook";
+// import useMobileDetect from "use-mobile-detect-hook";
 
-defaults.global.defaultFontFamily = "Peyda-Medium";
-// defaults.global.animation = {
-//   duration: 1000000,
-// };
+Chart.defaults.font.family = "Peyda-Medium";
 
 const chartOneData = {
   labels: ["افراد حقیقی", "ماشین آلات", "افراد حقوقی"],
@@ -93,7 +91,7 @@ const WebHome = () => {
     setChartOneData(chartOneData);
   }, []);
 
-  const { isMobile } = useMobileDetect();
+  const isMobile = () => false; // TODO: Replace with react-device-detect logic
 
   return useMemo(() => {
     if (isMobile()) {
@@ -101,7 +99,6 @@ const WebHome = () => {
     }
     return (
       <>
-        {/* <p>hii</p> */}
         <Row gutter={[16, 16]}>
           <Col xs={24} sm={24} md={24} lg={10} xl={6}>
             <ChartContainer>
@@ -128,16 +125,6 @@ const WebHome = () => {
                   height={300}
                   options={{
                     maintainAspectRatio: false,
-                    animation: {
-                      x: {
-                        duration: 5000,
-                        from: 0,
-                      },
-                      y: {
-                        duration: 3000,
-                        from: 500,
-                      },
-                    },
                   }}
                 />
               </div>
@@ -161,7 +148,7 @@ const WebHome = () => {
             <ChartContainer>
               <h2>نمودار کلی سیستم</h2>
               <div>
-                <Polar
+                <PolarArea // Corrected Polar to PolarArea
                   redraw
                   data={chartOneData}
                   width={300}

@@ -2,7 +2,7 @@ import React from "react";
 import TextInput from "./textInput/TextInput";
 import NumberInput from "./numberInput/NumberInput";
 import ModernDatePicker from "./modernDatePicker/ModernDatePicker";
-import DatePicker from "react-persian-datepicker";
+// import DatePicker from "react-persian-datepicker";
 import UploadInput from "./uploadInput/UploadInput";
 import CustomDatePicker from "./customDatePicker/CustomDatePicker";
 

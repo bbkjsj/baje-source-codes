@@ -1,7 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View } from "@react-pdf/renderer";
+// import { StyleSheet, Text, View } from "@react-pdf/renderer";
 import { IText, Row } from "./componnets";
 import colors from "utils/colors";
+
+// Placeholder for @react-pdf/renderer View component
+const View = ({style, children}) => <div style={style}>{children}</div>;
+// Placeholder for @react-pdf/renderer Text component (if IText wasn't already a good enough stub)
+// const Text = ({children, style}) => <span style={style}>{children}</span>;
+
 
 const AuditDetail = ({ audit }) => {
   const {
@@ -15,7 +21,8 @@ const AuditDetail = ({ audit }) => {
     national_number,
   } = audit;
   return (
-    <View style={styles.container}>
+    // <View style={styles.container}>
+    <div style={styles.container}> {/* Placeholder for PDF View */}
       <Row>
         <View
           style={{ ...styles.cellContainer, flex: 1.5, alignItems: "center" }}
@@ -88,18 +95,20 @@ const AuditDetail = ({ audit }) => {
           <IText>ممیزی شونده:</IText>
         </View>
       </Row>
-    </View>
+    </div>
+    // </View>
   );
 };
 
 export default AuditDetail;
 
-const styles = StyleSheet.create({
+// Original StyleSheet replaced with simple style object for the placeholder
+const styles = {
   container: {
-    borderWidth: 1.5,
+    border: "1.5px solid black", // Adjusted for web
     borderRadius: 1,
-    marginHorizontal: 10,
+    margin: "10px", // Adjusted for web
     marginTop: 10,
   },
-  cellContainer: { borderWidth: 0.5, flex: 1, paddingVertical: 2 },
-});
+  cellContainer: { borderWidth: "0.5px solid black", flex: 1, padding: "2px" }, // Adjusted for web
+};

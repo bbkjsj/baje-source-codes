@@ -2,7 +2,7 @@ import React from "react";
 import useIsMobile from "hooks/useIsMobile";
 import MobileList from "components/mobileList/MobileList";
 import AppTable from "./AppTable";
-import useMobileDetect from "use-mobile-detect-hook";
+// import useMobileDetect from "use-mobile-detect-hook";
 
 /**
  * a component that shows table if the viewport is desktop and shows mobile list if it's mobile, receives both AppTable and MobileList properties at the same time without affecting either of them negatively
@@ -44,7 +44,8 @@ import useMobileDetect from "use-mobile-detect-hook";
  */
 
 const ResponsiveList = (props) => {
-  const { isMobile } = useMobileDetect();
+  // const { isMobile } = useMobileDetect();
+  const isMobile = () => false; // TODO: Replace with react-device-detect logic
   return isMobile() ? <MobileList {...props} /> : <AppTable {...props} />;
 };
 

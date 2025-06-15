@@ -13,7 +13,7 @@ import { getAsArray, getLink } from "_helpers";
 import useCheckAccess from "hooks/useCheckAccess";
 import { permission as permissions } from "json/Permission";
 import useSuggestMenu from "modules/suggest/components/useSuggestMenu";
-import useMobileDetect from "use-mobile-detect-hook";
+// import useMobileDetect from "use-mobile-detect-hook";
 import { pageNames } from "constant";
 import { useSelector } from "react-redux";
 import { NewContext } from "contex/New-Context";
@@ -33,7 +33,8 @@ function SidebarItems() {
   const isSuper = user?.isSuper;
   const isPublicSuggestion = newContext.isPublicSuggestion();
   const [suggestMenu] = useSuggestMenu();
-  const { isMobile } = useMobileDetect();
+  // const { isMobile } = useMobileDetect();
+  const isMobile = () => false; // TODO: Replace with react-device-detect logic
   const { notificationsSum } = useNotifications();
 
   const publicSuggestionItems = [
