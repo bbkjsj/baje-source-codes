@@ -1,0 +1,51 @@
+_id: req_21a7928baff7440d801162c6292e8c37
+type: Request
+parentId: fld_4ad5d82c62ad4824b563edd04ea79ccb
+modified: 1655014862777
+created: 1655014115252
+url: "{{server}}/vehicle/system/87"
+name: update system
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2830a5dfda96484bb68f863e82e1b83a
+      name: title
+      value: edited name
+      description: ""
+    - id: pair_2bca3806b8eb4e608622838aed3f59c2
+      name: typeId
+      value: "1234"
+      description: ""
+      disabled: true
+    - id: pair_60166b79e0634b90bf8b362f9e526963
+      name: enTitle
+      value: english
+      description: ""
+      disabled: true
+    - id: pair_81054567963c456d943dd8e968fdbf1c
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/image.png
+      disabled: true
+parameters: []
+headers:
+  - id: pair_4c78e63b104946ffa6d0471f32db0644
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NDI2NzU3NSwiZXhwIjoxNjU1MTMxNTc1fQ.1ys9zqQR_n-Menun1wb0AV4WMbHxVFgh8aO6hUBhOAt5pvctpcv7fUBPbg_6AXv5pZPfnZZapAqFi6oUp8DvqVFwWm6Xqq5a8Ninq8-u-PUd31vto7Q0Q-ZKh2nOMd5mRtSuYPY8oeicfdVXpsGu-P0Szlxf0dNxRmfObaH8K6aWML90I0_RWvRdllPPqoUGepYLgJ9duJohpftz4htFmx-r7F7VHI36Z4SzgihDtGTa98tFyFUFCwvoe1E_jA9x2DJ-7Dp6kj9AiWC3fLd3VdU2jz2I0ADPY2jSAlL6H4MvUsC0xO6i-N-lWKRUQhJBeYdLQrnHLT82ct2fs9Gi9Q
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_78a2204ce92840789f209815a5c2b68e
+authentication: {}
+metaSortKey: -1653732623788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

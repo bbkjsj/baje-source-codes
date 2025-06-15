@@ -1,0 +1,29 @@
+_id: req_7223e50d0f544160b2279cdf80ea28bd
+type: Request
+parentId: fld_df1d5f59594c4681b3872878b964927f
+modified: 1665497488653
+created: 1654760031962
+url: "{{ _.productionServer }}/vehicle/advance-search"
+name: vehicle advance search
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7fd2bb4d29ef497ea3f1d703ab58071b
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+  - id: pair_d4c883c8559b4937addfa1c206a2be68
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1635779088651.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

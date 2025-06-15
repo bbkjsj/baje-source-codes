@@ -1,0 +1,33 @@
+_id: req_4f72b6d255334dba8b56bb43276013f4
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1637397640657
+created: 1637396789546
+url: "{{server}}/jobs"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "شغل نمونه"
+    }
+parameters: []
+headers:
+  - id: pair_4c5e968e7cf64853b3ac1a939ace182b
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_0214bb74175a401c9cb2a3f3dab4abb8
+authentication: {}
+metaSortKey: -1637396789546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

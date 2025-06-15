@@ -1,0 +1,33 @@
+_id: req_b359eef4c19541109f5e5e8e361818b5
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1662566591720
+created: 1661581528903
+url: "{{server}}/personnel/national-code/validate"
+name: validate national code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nationalCode" : "2992280704"
+    }
+parameters: []
+headers:
+  - id: pair_d5f1ac32f84748f4b804dc36f6cf85c4
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_5153934e8d9b4051a4e241e2e3f0a827
+authentication: {}
+metaSortKey: -1630323932791.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

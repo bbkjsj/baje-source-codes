@@ -1,0 +1,25 @@
+_id: req_f22608c5eded4532ab30a41b76909ea5
+type: Request
+parentId: fld_6157f4a405ae47d5ada84680cc9ea34f
+modified: 1665391633940
+created: 1658339802208
+url: "{{ _.productionServer }}/environment"
+name: get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f84e18bc7c2c4cd39cb2a1f99f449d32
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1653305958347.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

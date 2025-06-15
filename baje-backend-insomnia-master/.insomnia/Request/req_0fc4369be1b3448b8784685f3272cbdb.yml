@@ -1,0 +1,36 @@
+_id: req_0fc4369be1b3448b8784685f3272cbdb
+type: Request
+parentId: fld_e464cc2058b44187a352bcb4249aeb0f
+modified: 1658244579203
+created: 1653305965462
+url: "{{server}}/environment/usage"
+name: create usage
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "عنوان",
+    	"description" : "توضیحات امتخانی",
+    	"jobId" : 1000,
+    	"isEnable": true
+    }
+parameters: []
+headers:
+  - id: pair_f84e18bc7c2c4cd39cb2a1f99f449d32
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_a1bed4f5b894432aa75e327a27e1d229
+authentication: {}
+metaSortKey: -1653305965462
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

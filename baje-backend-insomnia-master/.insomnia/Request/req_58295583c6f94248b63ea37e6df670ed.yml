@@ -1,0 +1,42 @@
+_id: req_58295583c6f94248b63ea37e6df670ed
+type: Request
+parentId: fld_5cd8f2782be244ed97f9fb7639670cb0
+modified: 1631539412742
+created: 1631539259452
+url: "{{server}}/damage-service/36"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "خسارت",
+    	"personnel_id": 9807,
+    	"date": "2021/02/01",
+    	"description": "description",
+    	"type_service_damage": "type damage",
+    	"type_reward_penalty": "100",
+    	"amount_reward_penalty": "reward",
+    	"hr_approved": false,
+    	"project_admin_approved": false,
+    	"manager_approved": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cbe71ac1d927483f8739a53b74281107
+  - id: pair_353c1c1301544bf7b1306c47c735ded6
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631095087079.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

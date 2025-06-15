@@ -1,0 +1,19 @@
+.icon_btn {
+  width: 32px;
+  height: 32px;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.icon_btn span {
+  width: 32px;
+  word-break: inherit;
+  word-wrap: unset;
+  white-space: break-spaces;
+}
+
+.excel_btn {
+  border-color: #2e7d32;
+  color: #2e7d32;
+  background-color: rgba(46, 125, 50, 0.1);
+}

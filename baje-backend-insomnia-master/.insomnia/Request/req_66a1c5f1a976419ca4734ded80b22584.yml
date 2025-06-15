@@ -1,0 +1,25 @@
+_id: req_66a1c5f1a976419ca4734ded80b22584
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1673250487678
+created: 1637498411653
+url: "{{server}}/jobs/permission/1004"
+name: find all job permissions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_992fdd3b304e46b79f96d734084d474a
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1637498411653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

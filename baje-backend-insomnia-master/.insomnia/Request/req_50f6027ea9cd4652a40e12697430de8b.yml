@@ -1,0 +1,25 @@
+_id: req_50f6027ea9cd4652a40e12697430de8b
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1672575860502
+created: 1672575573669
+url: "{{server}}/access/personnel/9687"
+name: get personnel access
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1671886058718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

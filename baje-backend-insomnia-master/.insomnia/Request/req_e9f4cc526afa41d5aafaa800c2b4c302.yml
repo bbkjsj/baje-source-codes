@@ -1,0 +1,25 @@
+_id: req_e9f4cc526afa41d5aafaa800c2b4c302
+type: Request
+parentId: fld_24501b02c7d44e05bb6cd526e5030e0a
+modified: 1661062004386
+created: 1645284049256
+url: "{{server}}/permission/9718"
+name: get permission for personnel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6c4c8b9beb1b4185a0dc0e845b776d00
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY2MDk3MTQ5NCwiZXhwIjoxNjYxODM1NDk0fQ.QPRumxZCeSBXlA464-L35m1c7m2Cnr7c_s_4MNRTwvkJTcD5MuSjt7Kk4CuoRaoXgZ8X0HI4g4Sf_kPfKJDfxjm2vy-r_QC_5k06qdxwkWJ1cCho1FecqoamQg2jLlMeLG81Fu5DmjlkpC9oiPbh-q480AgQkMU8S4iYCrkObDxIpWrHix1TbyWjid3mxI9H_4TVJJUMwyutuL8fCxJ09GHCoWs5NA4G3KJAC9y-3gnAQbS9Rwmql7Qqe3xzWXzFk4jdxj9jgMa0e4b6uS5oUKy4Mw5RMNJb054rEegJB4wDJwDMIHK8f-rzb2YA7XpmZ8Bsh0q1C1PSREf0Pni8-Q
+    description: ""
+authentication: {}
+metaSortKey: -1644934491841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

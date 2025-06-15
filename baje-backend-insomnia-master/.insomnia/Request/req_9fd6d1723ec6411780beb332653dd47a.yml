@@ -1,0 +1,25 @@
+_id: req_9fd6d1723ec6411780beb332653dd47a
+type: Request
+parentId: fld_df1d5f59594c4681b3872878b964927f
+modified: 1665395072923
+created: 1636624406985
+url: "{{ _.productionServer }}/vehicle/find"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d7d7159e8e3749a89b894fef5c9923fc
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1636624406985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

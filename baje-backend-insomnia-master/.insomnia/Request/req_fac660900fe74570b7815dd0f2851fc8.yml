@@ -1,0 +1,25 @@
+_id: req_fac660900fe74570b7815dd0f2851fc8
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1636531137619
+created: 1636531131946
+url: "{{ _.server }}/hse/checklist/29"
+name: delete checklist
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_122952c7e11b4e7daf7f223e67be4b96
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjE2MDY0LCJmaXJzdF9uYW1lIjoi2LHYttinIiwibGFzdF9uYW1lIjoi2YLZh9ix2YXYp9mG24wiLCJjb21wYW55X2lkIjoxMTksImNvbXBhbnlfbmFtZSI6ItmG2q_bjNmGINqv2YfYsdiy2YXbjNmGINiz24zYsdis2KfZhiIsInN1cGVyIjpmYWxzZSwiaW1hZ2VfdXJsIjpudWxsLCJnZW5kZXIiOiJtIiwiaXNfZG9jdG9yIjpmYWxzZX0sImlhdCI6MTYzNjAyNjI3NCwiZXhwIjoxNjM2ODkwMjc0fQ.rU6NQljSNg3m-4OpYJ96AfqQ4l2gVaI3S74HEAE_5Z3U-P6LbdwkRVZ9jsaExJSKfQLCxb6VoWGobUwcD7emsSus5UqGkJl7TTEzqxo8zM1_eI5xA6yfX8yG82tw0vQiVtAMuOgtSCdmRMEeCm3ky-imZHAKI2dle0o8yKNuld1-5LRaa14lyzjRr56lMypZhidMjFZBz74Ly7Ms_ej9jk3lLNE7x6nr1LNC1J1Ky8LmuDqjrdOkkq5qJQEDi9S6VbZWGt5E0mfIqH6vN4aEL1s4ruwx8gLF4smoKEjxH8tN9nZUvS-4dyFJ1t_rB9sT7dsZLM3Vj82D0Qg2d7_SvA
+    description: ""
+authentication: {}
+metaSortKey: -1635780756615.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_78b51541bc4f49328be5d37bc01954a6
+type: Request
+parentId: fld_5cd8f2782be244ed97f9fb7639670cb0
+modified: 1631538947075
+created: 1631538885310
+url: "{{server}}/damage-service/9"
+name: detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d65c94ce45ac443696b0099408670bef
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631538885310
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

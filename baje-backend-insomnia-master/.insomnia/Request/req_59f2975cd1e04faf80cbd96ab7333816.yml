@@ -1,0 +1,25 @@
+_id: req_59f2975cd1e04faf80cbd96ab7333816
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1637595988196
+created: 1637595980366
+url: "{{server}}/jobs/shift/6"
+name: delete jobs shift pattern
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_17795df2e92341399e145a7e88f69e8c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1637521974347
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_68eebdc733fb459a960c5a626a7a70c1
+type: Request
+parentId: fld_5cd8f2782be244ed97f9fb7639670cb0
+modified: 1631539636550
+created: 1631539630975
+url: "{{server}}/damage-service/36"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cbe71ac1d927483f8739a53b74281107
+  - id: pair_353c1c1301544bf7b1306c47c735ded6
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631094023317.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

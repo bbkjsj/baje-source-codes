@@ -1,0 +1,25 @@
+_id: req_dccaa7bba7454df480958b533c7a1a32
+type: Request
+parentId: fld_f50da8b2e2c2472388c36ee15502f4ee
+modified: 1661581438676
+created: 1641714032484
+url: "{{server}}/tasks/kartabl/toinfo"
+name: kartabl
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f64483b645b54d9ba5ff17bf74af303b
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1641714032484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

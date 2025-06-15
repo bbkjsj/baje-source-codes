@@ -1,0 +1,42 @@
+_id: req_3370c253217243babc5d5e7da5110bd4
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1661614176160
+created: 1630619865260
+url: "{{server}}/personnel"
+name: create personnel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "birth_date": "1400/11/03",
+      "birth_place": "فلاورجان",
+      "father_name": "تستسی",
+      "first_name": "تست1",
+      "id_issue_place": "فلاورجان",
+      "id_number": "1111111111",
+      "last_name": "تست1 زاده",
+      "nation": "iranian",
+      "national_number": "1111111111",
+      "sex": "m"
+    }
+parameters: []
+headers:
+  - id: pair_b2c3ee1a9f264ed8ac17613b53fe5902
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_9fa473f496914a8aabe6e9958ea152af
+authentication: {}
+metaSortKey: -1630619865260
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_dcb188e5b09742828d4909e5fc6da85b
+type: Request
+parentId: fld_2c391b1730634bb8a673e551a4185120
+modified: 1640763111554
+created: 1640337488286
+url: "{{server}}/company/board-members"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"company_id_fk" : 123,
+    	"personnel_id_fk" : 9797,
+    	"role" : "MANAGING_DIRECTOR",
+    	"from_date" : "2022-01-01",
+    	"to_date": "2022-03-01",
+    	"signature_rights": ["COMMERCIAL_DOCUMENTS", "OFFICIAL_DOCUMENTS"],
+    	"description" : "testing description",
+    	"enabled" : true
+    }
+parameters: []
+headers:
+  - id: pair_900681ab16494ef79add2999ec3297a1
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_53408fc25b8d447eabe6385ba3c8ac61
+authentication: {}
+metaSortKey: -1640337488287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_4fd0d7d35c244e7696e3c12241c170cc
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1672656771679
+created: 1672656577855
+url: "{{server}}/access/personnel/11"
+name: update assign access to personnel
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671886726387.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

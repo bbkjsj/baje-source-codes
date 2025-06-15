@@ -1,0 +1,25 @@
+_id: req_74ba46254df34202b3d6ac3d3fd6aa3c
+type: Request
+parentId: fld_75fa9cc8f3b640f1b855e747b71e5031
+modified: 1631617908664
+created: 1631617892795
+url: "{{server}}/mission"
+name: list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c60fa1aaf5b8442d924fe5cfa487ed1b
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631617892795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_6459ea1088bc4f8e86efe23c657f78fb
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1642232239674
+created: 1639287313956
+url: "{{server}}/jobs/title"
+name: job titles
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"codes" : 	["000001", "000065"]
+    }
+parameters: []
+headers:
+  - id: pair_17795df2e92341399e145a7e88f69e8c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4985f5a16f294ec4ba4f91c28cbe2ee7
+authentication: {}
+metaSortKey: -1637580881082
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

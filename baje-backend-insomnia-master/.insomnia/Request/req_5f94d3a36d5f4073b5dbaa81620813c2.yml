@@ -1,0 +1,25 @@
+_id: req_5f94d3a36d5f4073b5dbaa81620813c2
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1665391993017
+created: 1660551734516
+url: "{{ _.productionServer }}/contract/list/main"
+name: list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1633875935275.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

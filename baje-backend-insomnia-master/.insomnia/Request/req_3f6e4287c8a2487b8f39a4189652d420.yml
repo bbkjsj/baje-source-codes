@@ -1,0 +1,21 @@
+_id: req_3f6e4287c8a2487b8f39a4189652d420
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1638854709274
+created: 1635778888215
+url: "{{server}}/jobs?page=1&size=100"
+name: find all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1635778888215
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

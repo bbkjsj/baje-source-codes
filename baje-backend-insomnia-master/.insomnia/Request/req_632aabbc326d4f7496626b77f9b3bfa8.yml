@@ -1,0 +1,40 @@
+_id: req_632aabbc326d4f7496626b77f9b3bfa8
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660559713667
+created: 1660559369392
+url: "{{server}}/contract/721/status"
+name: update status
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"defectsFixedOn": "2021-01-01 00:00:00",
+    	"temporaryDeliveredOn" : "2021-01-01 00:00:00",
+    	"definitiveStatementOn": "2021-01-01 00:00:00",
+    	"definitiveAdjustmentOn": "2021-01-01 00:00:00",
+    	"definitiveDeliveryOn": "2021-01-01 00:00:00",
+    	"accountSettledOn": "2021-01-01 00:00:00",
+    	"warrantyReleasedOn": "2021-01-01 00:00:00",
+    	"checkoutOn": "2021-01-01 00:00:00"
+    }
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_425d2f9d767747d58cbcad21c9bb6aa8
+authentication: {}
+metaSortKey: -1633890042153.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

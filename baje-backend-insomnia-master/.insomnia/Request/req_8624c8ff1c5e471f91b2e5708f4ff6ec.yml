@@ -1,0 +1,33 @@
+_id: req_8624c8ff1c5e471f91b2e5708f4ff6ec
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1631093027892
+created: 1631092959556
+url: "{{server}}/personnel/subordinate/many"
+name: delete subordinates
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids" : [1,2,3,4]
+    }
+parameters: []
+headers:
+  - id: pair_4974b94cb7704636894a9a27241772f2
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4ff89df229984c9cbee0188c99d3ec7c
+authentication: {}
+metaSortKey: -1631092959556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

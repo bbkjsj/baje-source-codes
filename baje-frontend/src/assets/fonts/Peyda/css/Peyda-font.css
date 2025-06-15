@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Peyda-Black";
+  src: url("../Peyda-Black/fonts/Peyda-Black.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Black/fonts/Peyda-Black.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Black/fonts/Peyda-Black.otf") format("opentype"),
+    /* Open Type Font */ url("../Peyda-Black/fonts/Peyda-Black.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Black/fonts/Peyda-Black.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Black/fonts/Peyda-Black.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-Bold";
+  src: url("../Peyda-Bold/fonts/Peyda-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Bold/fonts/Peyda-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Bold/fonts/Peyda-Bold.otf") format("opentype"),
+    /* Open Type Font */ url("../Peyda-Bold/fonts/Peyda-Bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Bold/fonts/Peyda-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Bold/fonts/Peyda-Bold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-ExtraBold";
+  src: url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.woff") format("woff"),
+    /* Modern Browsers */ url("../Peyda-ExtraBold/fonts/Peyda-ExtraBold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-ExtraLight";
+  src: url("../Peyda-ExtraLight/fonts/peyda-extralight.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-ExtraLight/fonts/peyda-extralight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-ExtraLight/fonts/peyda-extralight.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../Peyda-ExtraLight/fonts/peyda-extralight.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../Peyda-ExtraLight/fonts/peyda-extralight.woff") format("woff"),
+    /* Modern Browsers */
+      url("../Peyda-ExtraLight/fonts/peyda-extralight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-Light";
+  src: url("../Peyda-Light/fonts/peyda-light.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Light/fonts/peyda-light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Light/fonts/peyda-light.otf") format("opentype"),
+    /* Open Type Font */ url("../Peyda-Light/fonts/peyda-light.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Light/fonts/peyda-light.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Light/fonts/peyda-light.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-Medium";
+  src: url("../Peyda-Medium/fonts/Peyda-Medium.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Medium/fonts/Peyda-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Medium/fonts/Peyda-Medium.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../Peyda-Medium/fonts/Peyda-Medium.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Medium/fonts/Peyda-Medium.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Medium/fonts/Peyda-Medium.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-Regular";
+  src: url("../Peyda-Regular/fonts/Peyda-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Regular/fonts/Peyda-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Regular/fonts/Peyda-Regular.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../Peyda-Regular/fonts/Peyda-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Regular/fonts/Peyda-Regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Regular/fonts/Peyda-Regular.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-SemiBold";
+  src: url("../Peyda-SemiBold/fonts/Peyda-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-SemiBold/fonts/Peyda-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-SemiBold/fonts/Peyda-SemiBold.otf")
+      format("opentype"),
+    /* Open Type Font */ url("../Peyda-SemiBold/fonts/Peyda-SemiBold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../Peyda-SemiBold/fonts/Peyda-SemiBold.woff") format("woff"),
+    /* Modern Browsers */ url("../Peyda-SemiBold/fonts/Peyda-SemiBold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Peyda-Thin";
+  src: url("../Peyda-Thin/fonts/Peyda-Thin.eot"); /* IE9 Compat Modes */
+  src: url("../Peyda-Thin/fonts/Peyda-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../Peyda-Thin/fonts/Peyda-Thin.otf") format("opentype"),
+    /* Open Type Font */ url("../Peyda-Thin/fonts/Peyda-Thin.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../Peyda-Thin/fonts/Peyda-Thin.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../Peyda-Thin/fonts/Peyda-Thin.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,44 @@
+_id: req_a5565049b2aa4454a0a4eed90c00fdc7
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1630676662303
+created: 1630676401033
+url: "{{server}}/personnel/permission/16057"
+name: update personnel permission
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data" : [
+    		{
+    			"access" : "person/insert",
+    			"company_id_fk" : -1,
+    			"contract_id_fk" : -1
+    		},
+    		{
+    			"access" : "person/delete",
+    			"company_id_fk" : 100,
+    			"contract_id_fk" : 100
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_368d670827d645709246df063c688528
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_0594a06bf6f04668a483d0d570838549
+authentication: {}
+metaSortKey: -1630676401033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

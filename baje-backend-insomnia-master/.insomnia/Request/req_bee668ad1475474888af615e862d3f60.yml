@@ -1,0 +1,25 @@
+_id: req_bee668ad1475474888af615e862d3f60
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1630674563688
+created: 1630674550608
+url: "{{server}}/personnel/subordinates/16057"
+name: get personnel subordinates
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d5f1ac32f84748f4b804dc36f6cf85c4
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1630087804161.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

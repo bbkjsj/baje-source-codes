@@ -1,0 +1,35 @@
+_id: req_5b0d83405aae4759af4f976483bfd0c8
+type: Request
+parentId: fld_7065ade9bc8042b199956eedb781b42d
+modified: 1640069669098
+created: 1639575208471
+url: "{{server}}/jobs/chart/node/add-child/19"
+name: add child to node
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "level1-1 19",
+    	"count": 1,
+    	"jobs_tamin_code_id_fk": 102
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0fe1641b592746cca854ac0304b0488b
+  - id: pair_3a21011569204134b659af2e2e9bd86c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639466004607.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_55faec734ea84162a109e76d48a65cc2
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1662881442774
+created: 1630940241007
+url: "{{server}}/personnel/list/-1/-1?sort=id&stype=desc"
+name: personnel of a contract/company
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_db76f1f9879b4f6bb3acbde5f09e9830
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjk3MDgsImZpcnN0X25hbWUiOiLZhdit2YXYr9it2LPbjNmGIiwibGFzdF9uYW1lIjoi2K3Zhdiy2Ycg2YbamNin2K_bjCIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6ZmFsc2UsImltYWdlX3VybCI6Ii9hcGkvaW1hZ2UvcGVyc29ubmVsLzIxMTEyMzA3MDQyMC4kLmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOm51bGx9LCJpYXQiOjE2NjI4ODAwOTAsImV4cCI6MTY2Mzc0NDA5MH0.tgHFah4I74-Pv3DBNUULW2C2_7xy0dJVGWE6p1hw4wcZWISanYZ0ArGqdRzvY5b4Fk3A458IyZvjZAIbGj21XodztfER2_fbemp53zyn87SkJcR1fvjOeOCiMBhsZ2FUaQw8ruTVMHK_uKzqJb18QZAAvJ_CQBJbU2RLuuJCQflW7xe7rrdyQRyTG--t-cbbiduzNzLXbvgF1E9smIAlCKLy06LtPc6aSJaGk9-GCzNXZNmMZYh1h4m9fk7MPEwhBuqXVGRVNHIQs6FaUZ7VwDs96wi4R1rPsgLr2juj3oKsyFKhQx7TJIXBSzog8qEB-la-a7ygQLkYRl5It8HF6Q
+    description: ""
+authentication: {}
+metaSortKey: -1630940241007
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

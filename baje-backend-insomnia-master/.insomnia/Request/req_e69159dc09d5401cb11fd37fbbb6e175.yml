@@ -1,0 +1,41 @@
+_id: req_e69159dc09d5401cb11fd37fbbb6e175
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1662875061708
+created: 1644416191035
+url: "{{server}}/personnel/34780"
+name: update personnel
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 "birth_date": "1400/11/05",
+      "birth_place": "کابل",
+      "father_name": "پدر",
+      "first_name": "تست خارجی",
+      "id_number": "012345678912",
+      "last_name": "غیر ایرانی",
+      "nation": "non_iranian",
+      "national_number": "012345678912",
+      "sex": "m"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b36341816ecc4546ad09ed02e7264a5b
+  - id: pair_f243f590dd6f4e049f34520b5a982ece
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1644416191035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

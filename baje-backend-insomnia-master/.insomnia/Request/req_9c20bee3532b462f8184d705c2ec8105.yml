@@ -1,0 +1,34 @@
+_id: req_9c20bee3532b462f8184d705c2ec8105
+type: Request
+parentId: fld_f50da8b2e2c2472388c36ee15502f4ee
+modified: 1643636586742
+created: 1643617936898
+url: "{{server}}/tasks/not-my-duty"
+name: create not my duty
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"taskId" : 112,
+    	"description" : "تسک وظیفه من نبود. من دیگه نیرو این بخش نیستم"
+    }
+parameters: []
+headers:
+  - id: pair_ff8a49092ce249b3bc800a29b3c9c1b4
+    name: Authorization
+    value: "{{babakToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_3bbf1f53f59b492f9bf7f74c48064ce3
+authentication: {}
+metaSortKey: -1643617936898
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

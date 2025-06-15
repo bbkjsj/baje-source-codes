@@ -1,0 +1,33 @@
+_id: req_68f691daf1ea442fbfa685687c2ca92d
+type: Request
+parentId: fld_f50da8b2e2c2472388c36ee15502f4ee
+modified: 1643179365928
+created: 1642855593051
+url: "{{server}}/tasks/approve/39"
+name: approve task
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "done"
+    }
+parameters: []
+headers:
+  - id: pair_51832bd08c3641569ec9f301f931a40c
+    name: Authorization
+    value: "{{babakToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1c4cc4bc609f4658a8baabb77666f4fc
+authentication: {}
+metaSortKey: -1641665267135.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

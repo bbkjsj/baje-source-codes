@@ -1,0 +1,25 @@
+_id: req_94c41ba2f4584bc784f912a36177c919
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1640204565714
+created: 1640204543382
+url: "{{server}}/personnel/jobs/1"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639594902247.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_5992fe89252049ab88c4969dd6242cee
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1641902318888
+created: 1641708289861
+url: "{{server}}/table-name/column"
+name: create column name
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"columnName" : "test-1",
+    	"tableId" : 2,
+    	"title" : "شماره شناسنامه",
+    	"type": "type-sample"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_931ce468591a4b2db225fa8ecb4a95b7
+authentication: {}
+metaSortKey: -1641372593460.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

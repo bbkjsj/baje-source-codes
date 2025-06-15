@@ -1,0 +1,25 @@
+_id: req_0ee90575f9cd432499c72c8ab66c0e79
+type: Request
+parentId: fld_6157f4a405ae47d5ada84680cc9ea34f
+modified: 1658642132612
+created: 1658337851811
+url: "{{server}}/environment/1"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_f84e18bc7c2c4cd39cb2a1f99f449d32
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1ODMwMjY2NywiZXhwIjoxNjU5MTY2NjY3fQ.y9i26HB2-sjl4YlULIW-ugXCiQHxEGQ1DLG9leh8FeD0_KWlHWgLsPvaoJj7gW4NZWKjBiF7kjw8RFIMlb6Iay8dxiiWHjDiGF9dsJkSKwni5S563i8Q9uf6FZ-6xJ_W0pLpR81TPNsIikv5Yhp6QxkDl9JcFSvb9KhkfJjIdqnhmBveHHHVQGv_sNJ-f2o5IUJFD6E6d0fXLvkMUYFhO5VoCIgU9RAI2dKuzYDCWwugNEZO6801fhSW8uL3J8DvtYEc7TrAT_rnVevCBpllnKFs4Z7A1kcoN8Cs-QT9mcZrFC_UPMXwYQEXOTzCvjivFZ_KZN3mmoLwoBx_1yiwCw
+    description: ""
+authentication: {}
+metaSortKey: -1653305958353.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

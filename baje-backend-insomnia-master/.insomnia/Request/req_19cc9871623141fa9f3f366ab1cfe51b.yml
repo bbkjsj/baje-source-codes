@@ -1,0 +1,30 @@
+_id: req_19cc9871623141fa9f3f366ab1cfe51b
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1641706893281
+created: 1641706882734
+url: "{{server}}/table-name/1"
+name: update table name
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "Personnel",
+    	"table_name" : "personnel"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_931ce468591a4b2db225fa8ecb4a95b7
+authentication: {}
+metaSortKey: -1641317187267.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

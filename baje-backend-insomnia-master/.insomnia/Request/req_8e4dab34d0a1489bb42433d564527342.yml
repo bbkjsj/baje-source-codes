@@ -1,0 +1,44 @@
+_id: req_8e4dab34d0a1489bb42433d564527342
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1631006113177
+created: 1631006071333
+url: "{{server}}/personnel/excel"
+name: import excel
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_eb903f473a8645228eb1f70327497617
+      name: excel_file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/amir/Downloads/افراد حقیقی.xlsm
+    - id: pair_aa6aaef153024f019c54a07a1f6dcdc0
+      name: company_id
+      value: "118"
+      description: ""
+    - id: pair_c808e7d9badf4dc28f8889a15ebc2f43
+      name: contract_id
+      value: "489"
+      description: ""
+parameters: []
+headers:
+  - id: pair_96ba112281be4f24b0141684ea571aa5
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_31fdbb0a969248bca8dd48669ad0e2e8
+authentication: {}
+metaSortKey: -1630951653029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

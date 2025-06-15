@@ -1,0 +1,25 @@
+_id: req_eaf74c6fbb9e406aa864dc42924dca84
+type: Request
+parentId: fld_5cd8f2782be244ed97f9fb7639670cb0
+modified: 1631539015126
+created: 1631538954993
+url: "{{server}}/damage-service/list/خدمت/-1/-1"
+name: list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d65c94ce45ac443696b0099408670bef
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631416080851.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

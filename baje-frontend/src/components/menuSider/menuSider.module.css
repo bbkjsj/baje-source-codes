@@ -1,0 +1,17 @@
+.subMenu {
+  font-size: 17px;
+  font-family: "Peyda-Regular" !important;
+  letter-spacing: 1px;
+}
+
+.subMenuIcon {
+  font-size: 1.5rem;
+}
+
+.menuItem {
+  font-size: 15px;
+}
+
+.activeLink {
+  background-color: red;
+}

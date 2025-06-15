@@ -1,0 +1,21 @@
+{
+  "apps" : [{
+    "merge_logs"  : true,
+    "name"        : "btw",
+    "out_file"    : "/tmp/workers.log",
+    "log_date_format" : "MM/DD/YYYY HH:mm:ss",
+    "script"      : "./server.js",
+    "max_memory_restart" : "2G",
+    "node_args": "--max_old_space_size=1024",
+    "exec_mode": "cluster",
+    "env_development": {
+      "PORT": 5000,
+      "NODE_ENV": "development",
+      "NODE_TLS_REJECT_UNAUTHORIZED" : "0"
+    },
+    "env_production": {
+      "PORT": 4003,
+      "NODE_ENV": "production"
+    }
+  }]
+}

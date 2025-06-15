@@ -1,0 +1,25 @@
+_id: req_66a5820bfa8a42028d460b3ee53b06c3
+type: Request
+parentId: fld_0749eae317884bf2ab05c3b3c8e4a90a
+modified: 1669525614362
+created: 1662787450232
+url: "{{ _.server }}/family/12622"
+name: get family
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_baf9f91e2a8743839fc27ac503af4b75
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1659404817268.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

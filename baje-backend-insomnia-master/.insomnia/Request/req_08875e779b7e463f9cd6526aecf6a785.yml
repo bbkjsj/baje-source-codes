@@ -1,0 +1,60 @@
+_id: req_08875e779b7e463f9cd6526aecf6a785
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660714459219
+created: 1660546989193
+url: "{{server}}/contract/705"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"activity": "mineral",
+    	"adjustmentBaseIndex": 13973,
+    	"companyId": 222,
+    	"consultantCompanyId": 222,
+    	"contractNumber": "623232898",
+    	"contractType": "threeOperators",
+    	"contractorId": 222,
+    	"contractorType": "company",
+    	"startDate": "2022/8/16",
+    	"employer": "mh34343",
+    	"employerId": -1,
+    	"endDate": "2022-08-22",
+    	"environmentId": 13,
+    	"initialAmount": 45454545,
+    	"oldContractorId": 222,
+    	"priceListParts": [
+    		8,
+    		5,
+    		4
+    	],
+    	"priceListYear": "1397",
+    	"rialWeight": 5,
+    	"row": "762",
+    	"startDate": "2022-08-21",
+    	"subject": "testing edit edited",
+    	"timeWeight": 95,
+    	"type": "main_civil",
+    	"workshopCode": "2325557577"
+    }
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY2MDYyNjkyMCwiZXhwIjoxNjYxNDkwOTIwfQ.EIbPX_cQgY2UhuzjHDzrvu7wjElfaH6O0te4eCxOK0zCqyubATL4ao0D-jZ7xSntc1stFheDwL9HNuKe0PuRq-eKUY8_riab9fWX58YiIPSRFT3LAie0c2j7NTJQQ_6WT3Sdo2ixiJc1tV9BLUk5kKtT-fQX0uhoR9hEkpjO3twr4JSCSJS8OP56Pl12aDhsjb5utx460YV9szwlhZ9L9oyJJUQXJsJdA3tGXApw2oqiwfkjj75SrSBdTfqS43m2clblDVfyNTrBPr2fvwcSdFz_GHU5AGJx-mKTqkP3Cc2q2LXDMyUw_2LWVETYnR2_WvT0lEfJWBCxYHj3lgnibw
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_425d2f9d767747d58cbcad21c9bb6aa8
+authentication: {}
+metaSortKey: -1633904149031.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

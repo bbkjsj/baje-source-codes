@@ -1,0 +1,34 @@
+_id: req_0393dead8225457c85aa4e4990b4d710
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1638854590653
+created: 1637397831966
+url: "{{server}}/jobs/7"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "مدیر عامل ادیت شده",
+    	"status" : true
+    }
+parameters: []
+headers:
+  - id: pair_3e1b6faac1e64693aa40793d08f3b85f
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1818a0e1d4884d749d46889dba57d043
+authentication: {}
+metaSortKey: -1637397831966
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

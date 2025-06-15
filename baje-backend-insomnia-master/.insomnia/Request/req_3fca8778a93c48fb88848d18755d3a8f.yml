@@ -1,0 +1,25 @@
+_id: req_3fca8778a93c48fb88848d18755d3a8f
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1639425550781
+created: 1637559974808
+url: "{{server}}/jobs/tamin/6"
+name: find all job tamin codes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_992fdd3b304e46b79f96d734084d474a
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1637498275234
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

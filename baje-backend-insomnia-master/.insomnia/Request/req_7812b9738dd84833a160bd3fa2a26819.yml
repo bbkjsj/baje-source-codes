@@ -1,0 +1,42 @@
+_id: req_7812b9738dd84833a160bd3fa2a26819
+type: Request
+parentId: fld_75fa9cc8f3b640f1b855e747b71e5031
+modified: 1631618569167
+created: 1631618566615
+url: "{{server}}/mission/29"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"personnel_id" : 853,
+    	"type" : "انفرادی",
+    	"location" : "تهران",
+    	"subject" : "تست ماموریت",
+    	"from_date" : "2021-04-18 00:00:00",
+    	"to_date" : "2021-04-19 23:59:59",
+    	"residency" : "هتل",
+    	"vehicle" : "هواپیما",
+    	"description" : "تست سیستم",
+    	"status" : ""
+    }
+parameters: []
+headers:
+  - id: pair_e134e0b7540e409e8a0fcdeb37e43f44
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_473ed2f0f43d4416ac518af254cd8e78
+authentication: {}
+metaSortKey: -1631617971480.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_1b01b4d379654357b4464c581ee74474
+type: Request
+parentId: fld_2c391b1730634bb8a673e551a4185120
+modified: 1640347249206
+created: 1640347244384
+url: "{{server}}/company/board-members/1"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_900681ab16494ef79add2999ec3297a1
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1640170073152.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

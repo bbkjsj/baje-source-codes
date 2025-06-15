@@ -1,0 +1,25 @@
+_id: req_ecd4e94bf3a64c20ad5708e60f92c587
+type: Request
+parentId: fld_f937513124dd4d90a504ae6dfd8f6708
+modified: 1641188450749
+created: 1640763125331
+url: "{{server}}/jobs/24/in-company-chart"
+name: job in company chart
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_362e18f39afc4fc49abc0cded17f4b62
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1640763125331
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

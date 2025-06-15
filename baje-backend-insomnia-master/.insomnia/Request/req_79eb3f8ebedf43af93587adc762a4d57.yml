@@ -1,0 +1,34 @@
+_id: req_79eb3f8ebedf43af93587adc762a4d57
+type: Request
+parentId: fld_910835a8f39a4c64a94eb6338161eacf
+modified: 1655017649951
+created: 1655017358130
+url: "{{server}}/vehicle/style"
+name: create style
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "new style",
+    	"systemId" : 123
+    }
+parameters: []
+headers:
+  - id: pair_62a696438b4a435dbad2b1a799d0ea79
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NDI2NzU3NSwiZXhwIjoxNjU1MTMxNTc1fQ.1ys9zqQR_n-Menun1wb0AV4WMbHxVFgh8aO6hUBhOAt5pvctpcv7fUBPbg_6AXv5pZPfnZZapAqFi6oUp8DvqVFwWm6Xqq5a8Ninq8-u-PUd31vto7Q0Q-ZKh2nOMd5mRtSuYPY8oeicfdVXpsGu-P0Szlxf0dNxRmfObaH8K6aWML90I0_RWvRdllPPqoUGepYLgJ9duJohpftz4htFmx-r7F7VHI36Z4SzgihDtGTa98tFyFUFCwvoe1E_jA9x2DJ-7Dp6kj9AiWC3fLd3VdU2jz2I0ADPY2jSAlL6H4MvUsC0xO6i-N-lWKRUQhJBeYdLQrnHLT82ct2fs9Gi9Q
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1294114104144346a60be94b1e6dc3f3
+authentication: {}
+metaSortKey: -1655017358130
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

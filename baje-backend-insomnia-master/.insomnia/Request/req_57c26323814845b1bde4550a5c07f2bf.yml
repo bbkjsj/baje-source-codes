@@ -1,0 +1,21 @@
+_id: req_57c26323814845b1bde4550a5c07f2bf
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1642236038580
+created: 1641661159554
+url: "{{server}}/table-name/db/personnel/fields"
+name: fields of table
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1640984750105.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

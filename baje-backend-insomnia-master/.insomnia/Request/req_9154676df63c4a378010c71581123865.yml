@@ -1,0 +1,44 @@
+_id: req_9154676df63c4a378010c71581123865
+type: Request
+parentId: fld_5cfd801624c84998baafde0ad18604ca
+modified: 1661585313232
+created: 1651908951323
+url: "{{ _.server }}/personnel/subordinates/9699"
+name: add subordinate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"birth_date": "2022/5/4",
+    	"father_name": "اشکان",
+    	"id_number": "3",
+    	"issue_place": "مشهد",
+    	"last_name": "فامیلی تست",
+    	"national_code": "0964653184",
+    	"relation": "son",
+    	"dependency_status": "under_the_tutelage",
+    	"first_name": "tesst",
+    	"last_name": "test",
+    	"dependency_quit_reason": "testing",
+    	"reverse_dependency": true
+    }
+parameters: []
+headers:
+  - id: pair_dd36eed8eaa246108940d4151dc9dab8
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2e21456f1a8e400e86597eb6f542d958
+authentication: {}
+metaSortKey: -1651908951323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_d4f71197924d4d2690f86be3344e2a1d
+type: Request
+parentId: fld_0749eae317884bf2ab05c3b3c8e4a90a
+modified: 1664793426765
+created: 1662728510634
+url: "{{server}}/family"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"relation": "brother",
+    	"dependencyStatus": "independant",
+    	"insuranceNumber": "67364906",
+    	"personnelId": 9708,
+    	"parentId": 9718
+    }
+parameters: []
+headers:
+  - id: pair_baf9f91e2a8743839fc27ac503af4b75
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_07c2654f175347d795935aa45e05d051
+authentication: {}
+metaSortKey: -1660141327697.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,189 @@
+_id: req_2b50a782ddad443abf1b289bd4327b30
+type: Request
+parentId: fld_24501b02c7d44e05bb6cd526e5030e0a
+modified: 1654530432175
+created: 1645284021631
+url: "{{ _.server }}/permission/9718"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": [
+        {
+          "access": ["person/insert", "person/edit"],
+          "companyId": 119,
+          "contractId": 489
+        },
+        { "access": ["machinery/insert"], "companyId": 118, "contractId": 576 },
+        {
+          "access": [
+            "contract/progress-edit",
+            "contract/progress-approve",
+            "contract/list"
+          ],
+          "companyId": 121,
+          "contractId": 687
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/progress-edit",
+            "contract/progress-approve"
+          ],
+          "companyId": 121,
+          "contractId": 688
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/progress-edit",
+            "contract/progress-approve"
+          ],
+          "companyId": 118,
+          "contractId": 690
+        },
+        {
+          "access": ["contract/progress-add-edit", "contract/progress-approve"],
+          "companyId": 121,
+          "contractId": 691
+        },
+        { "access": [], "companyId": 222, "contractId": 692 },
+        {
+          "access": ["contract/progress-add-edit", "contract/progress-approve"],
+          "companyId": 121,
+          "contractId": 693
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/production-report-approve"
+          ],
+          "companyId": 121,
+          "contractId": 695
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/production-report-approve"
+          ],
+          "companyId": 121,
+          "contractId": 696
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/production-report-approve"
+          ],
+          "companyId": 121,
+          "contractId": 697
+        },
+        {
+          "access": ["contract/progress-add-edit", "contract/progress-approve"],
+          "companyId": 119,
+          "contractId": 700
+        },
+        {
+          "access": ["contract/progress-add-edit", "contract/progress-approve"],
+          "companyId": 119,
+          "contractId": 701
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/peyman-report-add-edit",
+            "contract/peyman-report-approve"
+          ],
+          "companyId": 119,
+          "contractId": 702
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/peyman-report-add-edit",
+            "contract/peyman-report-approve"
+          ],
+          "companyId": 119,
+          "contractId": 703
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/peyman-report-add-edit",
+            "contract/peyman-report-approve",
+            "contract/progress-edit",
+            "contract/progress-approve"
+          ],
+          "companyId": 119,
+          "contractId": 704
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/production-report-approve",
+            "contract/peyman-report-add-edit",
+            "contract/peyman-report-approve"
+          ],
+          "companyId": 119,
+          "contractId": 705
+        },
+        {
+          "access": [
+            "contract/progress-add-edit",
+            "contract/progress-approve",
+            "contract/production-report-add-edit",
+            "contract/production-report-approve",
+            "contract/peyman-report-add-edit",
+            "contract/peyman-report-approve"
+          ],
+          "companyId": 120,
+          "contractId": 714
+        },
+        {
+          "access": ["contract/progress-add-edit"],
+          "companyId": 120,
+          "contractId": 715
+        },
+        {
+          "access": ["contract/progress-approve"],
+          "companyId": 119,
+          "contractId": 720
+        },
+        { "access": [], "companyId": 222, "contractId": 695 },
+        { "access": [], "companyId": 223, "contractId": 693 }
+      ]
+    }
+parameters: []
+headers:
+  - id: pair_6c4c8b9beb1b4185a0dc0e845b776d00
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_26ebe46745434896bb011625d84f81a2
+authentication: {}
+metaSortKey: -1645050875621
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

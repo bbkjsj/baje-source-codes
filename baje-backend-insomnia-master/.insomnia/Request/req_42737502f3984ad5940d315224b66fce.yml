@@ -1,0 +1,33 @@
+_id: req_42737502f3984ad5940d315224b66fce
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631785348086
+created: 1631785290733
+url: "{{server}}/time-off/status/169"
+name: update status
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status":"تایید اولیه"
+    }
+parameters: []
+headers:
+  - id: pair_570cfb7384bc4a30babe1ae6baa3d656
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_146a6d3c30904cbca24f08e8bc154585
+authentication: {}
+metaSortKey: -1631716266528.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

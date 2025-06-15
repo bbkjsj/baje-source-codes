@@ -1,0 +1,25 @@
+_id: req_deec581fd4b943d29c8aaf1c211540b9
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1666709568129
+created: 1630925362341
+url: "{{server}}/personnel/list/119/489"
+name: get personnel of company/contract
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d5f1ac32f84748f4b804dc36f6cf85c4
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1630087804111.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

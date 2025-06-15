@@ -1,0 +1,100 @@
+_id: req_48cdc62e4cae4b0c97297c66bda3e766
+type: Request
+parentId: fld_4af6a4b9248c473bb8b7bb61cba8b642
+modified: 1631294131854
+created: 1631293276393
+url: "{{server}}/company"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_0251e54c206c4a2eaf1967d4a4a20cfa
+      name: name
+      value: test company 1
+      description: ""
+    - id: pair_4e180175d77f489496acb7592cc8b415
+      name: register_number
+      value: "10000"
+      description: ""
+    - id: pair_711675ee04714daf9cdd30af9c17130a
+      name: register_date
+      value: 2021/01/01
+      description: ""
+    - id: pair_9d56b1b439344dc8a030d361b121df61
+      name: national_id
+      value: "3490000390988"
+      description: ""
+    - id: pair_89a07ba492a04e379df59573a790871e
+      name: finance_code
+      value: "1223"
+      description: ""
+    - id: pair_56f44babde0f4a93a91793f46d4bc03b
+      name: manager_id_fk
+      value: "9899"
+      description: ""
+    - id: pair_53d8df85b94b4728b7af17b934aae381
+      name: phone
+      value: "224234"
+      description: ""
+    - id: pair_8195f000502e472f800b46f5b91f4dcd
+      name: address
+      value: iran - tehran
+      description: ""
+    - id: pair_6e2053cede6841c0932a6dfa04fe1075
+      name: postal_code
+      value: "123131"
+      description: ""
+    - id: pair_7eb9e4e80e454347961521194fdc8b15
+      name: email
+      value: amir.zandi@gmail.com
+      description: ""
+    - id: pair_67b97d0c04894e1f89c209f2cde6208a
+      name: description
+      value: description
+      description: ""
+    - id: pair_b8740e7ca852471885133d8223e0801b
+      name: is_group
+      value: "false"
+      description: ""
+    - id: pair_ad43893213a24c45a85f622082cec3ee
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Desktop/profile.jpg
+    - id: pair_d821d30178de4686bcdeb9cd7449bb43
+      name: sign
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Desktop/profile.jpg
+    - id: pair_31bf269985814d0dbc1bc6b0c1056ebf
+      name: seal
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Desktop/profile.jpg
+    - id: pair_6d719358ff274372bbcf881bae5b305c
+      name: sign_owners
+      value: amir zandi, mohammad zamani
+      description: ""
+parameters: []
+headers:
+  - id: pair_0c6c705a4f654fbfa97c0fbb763ce8cf
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_b02efdd7fd0c46f79f4a39e598b89612
+authentication: {}
+metaSortKey: -1631293276393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

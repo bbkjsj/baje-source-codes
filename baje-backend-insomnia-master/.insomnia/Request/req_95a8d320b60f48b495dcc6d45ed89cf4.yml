@@ -1,0 +1,25 @@
+_id: req_95a8d320b60f48b495dcc6d45ed89cf4
+type: Request
+parentId: fld_4ad5d82c62ad4824b563edd04ea79ccb
+modified: 1656750234681
+created: 1655012598766
+url: "{{server}}/vehicle/systems"
+name: get all systems
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4c78e63b104946ffa6d0471f32db0644
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NjMwMzE3OSwiZXhwIjoxNjU3MTY3MTc5fQ.OT0vsN9NIU2f4yxUyha82BgbS_yJbY61jUoI-Eivl0kg6T6w2BQBwk-ELLfh3Tj-wXDwTf59YIExFWXYHnWERLM9vaf-AmfBADIfzmtTU89vpotjKQu_vosSEAi6-twAopbuzuot2wtLIBUbJfrrh7F4hAvc7iBwowPb-TrNH1pTTBEcyC4_AyWsYDhTBU7ckU7XdhJ8yZVYmRjILoSQR28X4sSbN1g4Gl8yk8CBehtraE0nhqvRJdioizBfTl2t1M2iPYiaj8WKtfkjaMjGKanh_GEorcgnnvethDVzTpxN0DpDQB6OXoZk33YtBx2ykO9aOBHPlWiRSGx-P4mqyA
+    description: ""
+authentication: {}
+metaSortKey: -1655012598766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

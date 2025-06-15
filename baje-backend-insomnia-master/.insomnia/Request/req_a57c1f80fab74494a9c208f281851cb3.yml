@@ -1,0 +1,34 @@
+_id: req_a57c1f80fab74494a9c208f281851cb3
+type: Request
+parentId: fld_7065ade9bc8042b199956eedb781b42d
+modified: 1640069670110
+created: 1639574523616
+url: "{{server}}/jobs/chart/8"
+name: update chart
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "testing 1",
+    	"enable" : true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0fe1641b592746cca854ac0304b0488b
+  - id: pair_3a21011569204134b659af2e2e9bd86c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639368603057.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

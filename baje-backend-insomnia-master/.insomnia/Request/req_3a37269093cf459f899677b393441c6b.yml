@@ -1,0 +1,60 @@
+_id: req_3a37269093cf459f899677b393441c6b
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631784715013
+created: 1631784314807
+url: "{{server}}/time-off"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e2e87fb9714d4bdfb25238fced0670db
+      name: personnel_id
+      value: "9699"
+      description: ""
+    - id: pair_8bbaffa2d5bc48c8919bb5d3a54d30be
+      name: type
+      value: استعلاجی
+      description: ""
+    - id: pair_ca02f8700525429aa4a7766f39c6f7e1
+      name: request_type
+      value: ساعتی
+      description: ""
+    - id: pair_79342c8c972a47878b27caf55fad1358
+      name: from_date
+      value: 2021-01-01 13:00:00
+      description: ""
+    - id: pair_6d0cac74616449c9a7684cfd396b9ba9
+      name: to_date
+      value: 2021-01-01 17:00:00
+      description: ""
+    - id: pair_12f7749c28e7423394cbe46e9ba9b6d0
+      name: description
+      value: تست توضیحات
+      description: ""
+    - id: pair_4b9513ec07a94496b2dd8a8757d51497
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/cover.jpg
+parameters: []
+headers:
+  - id: pair_570cfb7384bc4a30babe1ae6baa3d656
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_146a6d3c30904cbca24f08e8bc154585
+authentication: {}
+metaSortKey: -1631784314807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

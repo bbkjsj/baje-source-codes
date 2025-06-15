@@ -1,0 +1,25 @@
+_id: req_c2ed85fcd3ee472b957d1ca8c45965eb
+type: Request
+parentId: fld_2c391b1730634bb8a673e551a4185120
+modified: 1640507610855
+created: 1640348663674
+url: "{{server}}/company/board-members/by-id/11"
+name: find by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_900681ab16494ef79add2999ec3297a1
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1640086365585.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

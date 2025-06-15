@@ -1,0 +1,53 @@
+_id: req_60fc660962a748908e718ac68917c99c
+type: Request
+parentId: fld_b6a1bad9245e4063884d4d0f24e64a26
+modified: 1660390560632
+created: 1641810747227
+url: "{{server}}/tasks/condition"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "TEST OLD",
+        "description": "TEST AMIR",
+        "condition": "mobile1 =  '09365520036'",
+        "negativePoint": 5,
+        "point": 10,
+        "ifTaskFailed": "delayed",
+        "priority": "low",
+        "punishment": "none",
+        "referable": 0,
+        "personnelToInform": [],
+        "smsNotification": [
+            "onstart",
+            "on90percent"
+        ],
+        "tableId": 9,
+        "enable": 1,
+        "secondsAfterCreate": 86400,
+        "personnelMembers": [
+            "9699",
+    			"853"
+        ]
+    }
+parameters: []
+headers:
+  - id: pair_5d2f06ca1ea7411e8da137c32e3ce478
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2ac7ba8553034e848e26a39ac0c8a056
+authentication: {}
+metaSortKey: -1641810747227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

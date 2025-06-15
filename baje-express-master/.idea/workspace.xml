@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e97889f6-0acc-42b8-a3ef-a4d848e1825b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/v1/admin/insurance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/v1/admin/insurance/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/v1/admin/personel/haghighi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/v1/admin/personel/haghighi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/v1/sign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/v1/sign/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/permissions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/permissions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/auth/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xwzVXxSKYgU8DZFu3IWMz11T7k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/amir/Documents/Programming/nodejs/express/baje/baje724-backend",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e97889f6-0acc-42b8-a3ef-a4d848e1825b" name="Changes" comment="" />
+      <created>1631280962194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631280962194</updated>
+      <workItem from="1631468453877" duration="1000" />
+      <workItem from="1682266795605" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

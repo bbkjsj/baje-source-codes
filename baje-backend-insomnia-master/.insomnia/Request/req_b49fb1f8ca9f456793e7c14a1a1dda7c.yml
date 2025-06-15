@@ -1,0 +1,25 @@
+_id: req_b49fb1f8ca9f456793e7c14a1a1dda7c
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1642579341411
+created: 1639920431348
+url: "{{ _.productionServer }}/jobs/shift/personnel/9696"
+name: personnel shift
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b0c2833bd62d4d00be0acdb1e416859c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639920431348
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_3352cc53d9a549f98bee88343c29978f
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1660395920514
+created: 1639660754421
+url: "{{server}}/personnel/jobs/3"
+name: detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639617143701.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

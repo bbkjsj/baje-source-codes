@@ -1,0 +1,21 @@
+_id: req_a6c7d5c4362641b48db410994dbdb807
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1649827239520
+created: 1641649624429
+url: "{{ _.realServer }}/table-name"
+name: find all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641649624429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

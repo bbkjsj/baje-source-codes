@@ -1,0 +1,55 @@
+_id: req_4296aeb505c144d7952e265412ba8087
+type: Request
+parentId: fld_df1d5f59594c4681b3872878b964927f
+modified: 1665730746943
+created: 1646474546758
+url: "{{ _.server }}/vehicle"
+name: add vehicle
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "chassisNumber": "22222",
+      "color": "ابی",
+      "companyId": "224",
+      "environmentId": "694",
+      "dateType": "shamsi",
+      "description": "test 1",
+      "engineNumber": "22222",
+      "gearBox": "manual",
+      "madeYear": "1400",
+      "organizationCode": "22222",
+      "ownerId": "224",
+      "ownerType": "company",
+      "plaque1": "-1",
+      "plaque2": "",
+      "plaque3": "-1",
+      "plaque4": "-1",
+      "price": "10000000000",
+      "serialNumber": "22222",
+      "status": "enable",
+      "styleId": "51",
+      "systemId": "47",
+      "typeId": "71",
+      "vinNumber": "22222"
+    }
+parameters: []
+headers:
+  - id: pair_17b4d4e6b65d418d80df32ab5f0f6b13
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1ODgzMTgyMCwiZXhwIjoxNjU5Njk1ODIwfQ.qEqmfXu2gchX9jRB6qcHr-F36BsEx5rF4Tm58uNfWpTCYxNY9BEwVbdTR0rhZOwjSyQvJBcIhGK4LbUwaQdTLbAPwVtLyQ2K7-CmVj2fpvMSRkLLMNbfSIlf4cLhQiNNHYD_RcOHABlPLwjF6PFaH8DGjzYNMGEKLJ5K6-IHtkIwbhu7wPaoenASRofc3sZYscDLwrj2eqrwGnuTQ-VbiD7nRbprTGu0Q4eBjTD6eXHJvZ_v_cTzfrx2nndrbnTAigKbGP6llyo1E3-UZZSv59g1NGTXnkUEHtJjBgfq8tPOxQQjSCCF8-eZQlxKN-BeXE6v17B1urs0X6LaCgSPZg
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_b671e36a9eb144d9b5f0da51d490dfc7
+authentication: {}
+metaSortKey: -1646474546758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_66bdacc8293f4af08d8f50cfa5b50ee2
+type: Request
+parentId: fld_f50da8b2e2c2472388c36ee15502f4ee
+modified: 1643620910286
+created: 1643620693072
+url: "{{server}}/tasks/not-my-duty/112/true"
+name: approve not my duty
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_ff8a49092ce249b3bc800a29b3c9c1b4
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1642761530016
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,57 @@
+.carplate-codepen-wrapper {
+  margin: 0 auto;
+}
+
+.carplate-registration-ui {
+  background: #fff;
+  padding: 0.25em 0.5em 0.15em 1.75em;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  position: relative;
+  font-family: sans;
+  display: inline-block;
+}
+
+.carplate-registration-ui:before {
+  content: "IRAN";
+  display: block;
+  width: 30px;
+  height: 100%;
+  background: #003399;
+  /* background-image: url(iran.jpg); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px 0 0 5px;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 60px;
+  padding-left: 1px;
+  background-position: 2px 6px;
+  background-size: 27px;
+  background-repeat: no-repeat;
+}
+
+.carplate-registration-ui:after {
+  content: ".I.R";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 20px;
+  font-size: 10px;
+  line-height: 35px;
+  color: white;
+  padding-left: 1px;
+}
+
+.carplate-plate-1 {
+  float: left;
+}
+
+.carplate-plate-2 {
+  float: right;
+  padding-left: 10px;
+  border-left: 1px solid black;
+  margin-left: 10px;
+}

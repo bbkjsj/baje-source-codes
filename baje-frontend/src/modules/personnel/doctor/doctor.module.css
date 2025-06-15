@@ -1,0 +1,7 @@
+.textLoading {
+  display: flex;
+  justify-content: center;
+}
+.textLoading p {
+  font-size: 20px;
+}

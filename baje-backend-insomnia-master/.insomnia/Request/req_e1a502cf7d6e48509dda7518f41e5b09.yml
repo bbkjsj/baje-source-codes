@@ -1,0 +1,51 @@
+_id: req_e1a502cf7d6e48509dda7518f41e5b09
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1637595649771
+created: 1637595555190
+url: "{{server}}/jobs/shift/6"
+name: update jobs shift pattern
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jobsId" : 9,
+    	"title" : "amir zandi",
+    	"enabled" : true,
+    	"numberOfTimeOffDays" : 10,
+    	"timespan" : "day",
+    	"calculatePublicHolidays": true,
+    	"calculateExtraWork": false,
+    	"calculateOffWork" : true,
+    	"calculateNight" : false,
+    	"calculateFriday": true,
+    	"publicHolidaysAreOff":false,
+    	"patterns" : [
+    		{
+    			"status" : "work",
+    			"days" : 10,
+    			"from" : "2021/01/01 10:00",
+    			"to" : "2021/01/01 15:00"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_17795df2e92341399e145a7e88f69e8c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4985f5a16f294ec4ba4f91c28cbe2ee7
+authentication: {}
+metaSortKey: -1637545537041
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

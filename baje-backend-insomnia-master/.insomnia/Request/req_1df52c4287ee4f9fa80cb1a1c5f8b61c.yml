@@ -1,0 +1,37 @@
+_id: req_1df52c4287ee4f9fa80cb1a1c5f8b61c
+type: Request
+parentId: fld_24501b02c7d44e05bb6cd526e5030e0a
+modified: 1658244930066
+created: 1645283643181
+url: "{{server}}/permission/9710"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"access": [
+    		"person/insert"
+    	],
+    	"contractId" : 123,
+    	"companyId" : 119
+    }
+parameters: []
+headers:
+  - id: pair_6c4c8b9beb1b4185a0dc0e845b776d00
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_26ebe46745434896bb011625d84f81a2
+authentication: {}
+metaSortKey: -1645283643181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

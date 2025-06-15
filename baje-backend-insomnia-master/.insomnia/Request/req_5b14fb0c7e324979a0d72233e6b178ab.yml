@@ -1,0 +1,25 @@
+_id: req_5b14fb0c7e324979a0d72233e6b178ab
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660559807869
+created: 1660551888606
+url: "{{server}}/contract/695"
+name: get one item
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1633861828397.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_aa6abf6466e54f7683d30e9cf19978f0
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1672657507323
+created: 1671888278188
+url: "{{server}}/access/status/11112"
+name: update access
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"enable": true
+    }
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671885613605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

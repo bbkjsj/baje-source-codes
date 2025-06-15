@@ -1,0 +1,25 @@
+_id: req_01d7355b4f3a4deebf10ecfe08be591f
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1671957178933
+created: 1671957167356
+url: "{{server}}/access/prerequisite/11112"
+name: get prerequisite
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1671886503831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

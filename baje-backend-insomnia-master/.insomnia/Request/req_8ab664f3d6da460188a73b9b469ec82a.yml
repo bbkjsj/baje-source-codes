@@ -1,0 +1,29 @@
+_id: req_8ab664f3d6da460188a73b9b469ec82a
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1639504748086
+created: 1635777576294
+url: "{{ _.realServer }}/hse/question"
+name: get questions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - id: pair_ac73e3cc7cb840edabb6aea5543e38cf
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1635695061000.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_703f3d3e7267497abeb1f4ec84339e8c
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1662874691945
+created: 1630560061421
+url: "{{server}}/personnel"
+name: get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d5f1ac32f84748f4b804dc36f6cf85c4
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1630560061421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_a250abb7f572437dad73a61209a59b1c
+type: Request
+parentId: fld_b52a5be00333434e81d62878eaa02747
+modified: 1656826395811
+created: 1655019599276
+url: "{{server}}/vehicle/type"
+name: delete type
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids" : ["90"]
+    }
+parameters: []
+headers:
+  - id: pair_60f90296af0c4634ba46f86c2b8c048b
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NjIyOTE1NCwiZXhwIjoxNjU3MDkzMTU0fQ.gdu7nfo1LtVuymg-Uuc1dOZYcyhe3AunbGCke3cc-h1QAalIzEc5OucvLWnDyX3mSMzUkHNA3iviJpsUG1k628T0MyXd8rst2ZaTDSLvQfJeXpMqmYw2U_i1XhfHsi6uVzgzQ1_etfgtQaxK5Nv68KqDtwY1ylVkQctHSUXFtvwcexwQa56fHH0zH8z6D3akHl2kSzN78i_KX0_WpCdzQbL7OUTIlqdyCDnPiCY84mmrypcyhMMcpumyTgaK1DxKRaQAbVbiCOAdqOrCP8z6gw7RaFCPv0k3I0yQ8RfGJ8FqC4dlsWXjIj1vt3kApHi2I9eD0pR4D6jKqf_VhjGf4w
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_92615c3438c54cde924c06958d2bce47
+authentication: {}
+metaSortKey: -1655017863260.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

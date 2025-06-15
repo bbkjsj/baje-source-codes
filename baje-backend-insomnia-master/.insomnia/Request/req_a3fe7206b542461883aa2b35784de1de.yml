@@ -1,0 +1,37 @@
+_id: req_a3fe7206b542461883aa2b35784de1de
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1672575827268
+created: 1672570427362
+url: "{{server}}/access"
+name: assign access to personnel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"personnelId": 9687,
+    	"accessIds": [13, 14],
+    	"accessLevel": "environment",
+    	"environmentId": 7,
+    	"startDate": "2023-01-01",
+    	"endDate": "2023-12-22"
+    }
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671886948944
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

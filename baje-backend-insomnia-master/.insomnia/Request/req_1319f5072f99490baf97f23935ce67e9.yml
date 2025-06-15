@@ -1,0 +1,36 @@
+_id: req_1319f5072f99490baf97f23935ce67e9
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1631013254121
+created: 1631011314758
+url: "{{server}}/personnel/subordinate/excel"
+name: import subordinate excel
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_eb903f473a8645228eb1f70327497617
+      name: excel_file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/amir/Downloads/addtabaiePerson (1).xlsm
+parameters: []
+headers:
+  - id: pair_96ba112281be4f24b0141684ea571aa5
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_31fdbb0a969248bca8dd48669ad0e2e8
+authentication: {}
+metaSortKey: -1630928003684
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

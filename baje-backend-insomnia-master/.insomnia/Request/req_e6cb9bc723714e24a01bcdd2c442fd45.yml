@@ -1,0 +1,21 @@
+_id: req_e6cb9bc723714e24a01bcdd2c442fd45
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1649580753815
+created: 1641656577609
+url: "{{ _.server }}/table-name/db/tables"
+name: find database tables
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641206374880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

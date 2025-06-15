@@ -1,0 +1,25 @@
+_id: req_5424f4ab8cb847ddb7dde28681d6861d
+type: Request
+parentId: fld_24501b02c7d44e05bb6cd526e5030e0a
+modified: 1669552704387
+created: 1653825272823
+url: "{{ _.server }}/permission/list"
+name: get all permissions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6c4c8b9beb1b4185a0dc0e845b776d00
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1644876299951
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

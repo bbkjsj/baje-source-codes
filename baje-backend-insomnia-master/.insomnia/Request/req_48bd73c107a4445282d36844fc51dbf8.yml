@@ -1,0 +1,60 @@
+_id: req_48bd73c107a4445282d36844fc51dbf8
+type: Request
+parentId: fld_b6a1bad9245e4063884d4d0f24e64a26
+modified: 1642438559625
+created: 1642338680490
+url: "{{server}}/tasks/condition"
+name: create with monthly schedule
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"condition": "mobile1 is daily monthly",
+    	"tableId": 9,
+    	"title": "aksjhdfb",
+    	"description": "ldjhfbkg",
+    	"negativePoint": 22,
+    	"point": 10,
+    	"ifTaskFailed": "kill",
+    	"daysAfterCreate": 13,
+    	"enable": 0,
+    	"jobs": [
+    		"21",
+    		"23",
+    		"24"
+    	],
+    	"personnelToInform" : ["1","2","3"],
+    	"priority" : "low",
+    	"punishment" : "none",
+    	"monthlySchedule": [
+    		{
+    			"day" : 1
+    		},
+    		{
+    			"day" : 2
+    		},
+    		{
+    			"day" : 3
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_5d2f06ca1ea7411e8da137c32e3ce478
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2ac7ba8553034e848e26a39ac0c8a056
+authentication: {}
+metaSortKey: -1641786568541.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,8 @@
+const actions = {
+  SET_LOADING: "SET_LOADING",
+  SET_BTN_LOADING: "SET_BTN_LOADING",
+  SET_DEFAULT_CODE: "SET_DEFAULT_CODE",
+  SET_PERSON: "SET_PERSON",
+};
+
+export default actions;

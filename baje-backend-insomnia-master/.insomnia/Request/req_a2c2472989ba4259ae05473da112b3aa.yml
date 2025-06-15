@@ -1,0 +1,21 @@
+_id: req_a2c2472989ba4259ae05473da112b3aa
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1641708680776
+created: 1641708670589
+url: "{{server}}/table-name/column/table/1"
+name: find all columns of table by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641483405848.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

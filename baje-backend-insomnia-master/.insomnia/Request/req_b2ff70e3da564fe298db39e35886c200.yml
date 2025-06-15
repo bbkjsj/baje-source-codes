@@ -1,0 +1,25 @@
+_id: req_b2ff70e3da564fe298db39e35886c200
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1642579311230
+created: 1637596420693
+url: "{{ _.productionServer }}/jobs/shift"
+name: find all shifts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_17795df2e92341399e145a7e88f69e8c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1637569099735
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

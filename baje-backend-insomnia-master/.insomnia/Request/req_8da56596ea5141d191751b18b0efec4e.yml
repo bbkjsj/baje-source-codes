@@ -1,0 +1,25 @@
+_id: req_8da56596ea5141d191751b18b0efec4e
+type: Request
+parentId: fld_e464cc2058b44187a352bcb4249aeb0f
+modified: 1653818390150
+created: 1653306532153
+url: "{{ _.realServer }}/environment/usage/list"
+name: get usages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f84e18bc7c2c4cd39cb2a1f99f449d32
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1652083578090.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

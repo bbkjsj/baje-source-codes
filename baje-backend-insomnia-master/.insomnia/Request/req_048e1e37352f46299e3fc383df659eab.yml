@@ -1,0 +1,25 @@
+_id: req_048e1e37352f46299e3fc383df659eab
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1636648703743
+created: 1635777800586
+url: "{{server}}/hse/question/1"
+name: delete question
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1635708658052.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

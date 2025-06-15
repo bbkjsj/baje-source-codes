@@ -1,0 +1,31 @@
+_id: req_adbec88a71f14fd4966e41b3c448d6a3
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1639504934705
+created: 1636708072513
+url: "{{ _.realServer }}/hse/audit/127"
+name: find one audit
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ec2d2d63ba2340d481e3bc444bc9d7f2
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+    disabled: false
+  - id: pair_9fe82e6ced754440beff7491d654f2fa
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjE2MDY0LCJmaXJzdF9uYW1lIjoi2LHYttinIiwibGFzdF9uYW1lIjoi2YLZh9ix2YXYp9mG24wiLCJjb21wYW55X2lkIjoxMTksImNvbXBhbnlfbmFtZSI6ItmG2q_bjNmGINqv2YfYsdiy2YXbjNmGINiz24zYsdis2KfZhiIsInN1cGVyIjpmYWxzZSwiaW1hZ2VfdXJsIjpudWxsLCJnZW5kZXIiOiJtIiwiaXNfZG9jdG9yIjpmYWxzZX0sImlhdCI6MTYzODA5MjA5MSwiZXhwIjoxNjM4OTU2MDkxfQ.BObLH5X28jdXuwqjMkntdTXZH1aN_cEZ2zqAjXC7EZR7BLl2o6jdt_91x6Uq0g5ytsOnAVOVWIKsLU1-336yfQIeoOpmagRKYMjPrfgOcKKlWeOX6ut9zAyO4PCKF2zwCtEJCYCdVZqGB6L2P5CHYTmhihE0RdqxKOQURWfGAGAm4PXbDlne25un2mbznvmDfhW7ZxJweT3j-yH7Nq-V1Y9TMc1qtrHmRQKd3CcMpzKuRkTjEhA5osoZIR1kZ0qseuZBn1zL-Cb9pjXyzY5vV7ZYiQT1miU_kc8k0_zWGjDwAtIb5_vj5wkdoguZuIzwAHYITZ1YiV461lAYUjrt9Q
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1636701153459.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

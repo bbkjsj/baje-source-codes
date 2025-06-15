@@ -1,0 +1,25 @@
+_id: req_89f519d9f5064baba26bcc5ce83755b3
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631785110265
+created: 1631785107621
+url: "{{server}}/time-off"
+name: list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_dbfce5a08be642288fab494e466928b8
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631784678294.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

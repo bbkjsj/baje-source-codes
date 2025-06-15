@@ -1,0 +1,25 @@
+_id: req_5abd36c0bb8244129ce5129fe7aa1dbc
+type: Request
+parentId: fld_0ddbf15699b940fe838cee8cc765e5a0
+modified: 1666710694867
+created: 1666703906952
+url: "{{server}}/insurance/takmili/personnel/86?page=1&size=1"
+name: personnel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ae77225c0f814fcda169851f759dac8e
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1666703906952
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

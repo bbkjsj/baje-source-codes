@@ -1,0 +1,34 @@
+_id: req_9a5a44f3144745ac8ea98f9d1c10d30e
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1631016403021
+created: 1631014426329
+url: "{{server}}/personnel/search"
+name: global search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nationalCode" : "2992280704",
+    	"firstName" : "امیر",
+    	"lastName" : "زندی",
+    	"fatherName" : "جمشید",
+    	"insuranceNumber" : "65285103",
+    	"mobile" : "09123872205"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_479e1bfc7ceb4637b33279515b20b870
+authentication: {}
+metaSortKey: -1631014426329
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_1c56d9eef4ed4212a9c6e88618fe5a89
+type: Request
+parentId: fld_df1d5f59594c4681b3872878b964927f
+modified: 1665730601725
+created: 1654759687101
+url: "{{server}}/vehicle/376"
+name: get vehicle
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7fd2bb4d29ef497ea3f1d703ab58071b
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1635779289088.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

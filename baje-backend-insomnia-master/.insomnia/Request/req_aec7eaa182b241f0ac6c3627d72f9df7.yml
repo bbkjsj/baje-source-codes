@@ -1,0 +1,36 @@
+_id: req_aec7eaa182b241f0ac6c3627d72f9df7
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1639639369706
+created: 1639580074548
+url: "{{server}}/personnel/shift"
+name: create shift for personnel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jobs_shift_id_fk" : 4,
+    	"personnel_id_fk" : 15,
+    	"start_date" : "2021-01-01",
+    	"end_date" : "2021-12-01"
+    }
+parameters: []
+headers:
+  - id: pair_d87a722a1cfd417791d7a5da92ff393d
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_9318cafce28144d596eaf95df90c7691
+authentication: {}
+metaSortKey: -1639580074611
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

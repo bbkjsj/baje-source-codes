@@ -1,0 +1,25 @@
+_id: req_cb92d046f09b4aec93e0be27b5f46297
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1638251725351
+created: 1638204799803
+url: "{{ _.server }}/hse/types"
+name: find all types for hse
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1635681463948.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

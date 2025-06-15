@@ -1,0 +1,25 @@
+_id: req_7ec9e0476a5e48b89742bdfcd583b1e3
+type: Request
+parentId: fld_b6a1bad9245e4063884d4d0f24e64a26
+modified: 1659769065585
+created: 1641812854633
+url: "{{ _.server }}/tasks/condition"
+name: find all conditions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ec33818480894ec3b0bf6517f0cecbf0
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1641812854633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

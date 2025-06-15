@@ -1,0 +1,25 @@
+_id: req_51c1f97c00d64b0daa697c006f3e456f
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631785101934
+created: 1631785041782
+url: "{{server}}/time-off/169"
+name: detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_dbfce5a08be642288fab494e466928b8
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631785041782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

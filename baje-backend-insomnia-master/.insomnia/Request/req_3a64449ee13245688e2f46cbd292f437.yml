@@ -1,0 +1,33 @@
+_id: req_3a64449ee13245688e2f46cbd292f437
+type: Request
+parentId: fld_e464cc2058b44187a352bcb4249aeb0f
+modified: 1653307070336
+created: 1653306478138
+url: "{{server}}/environment/usage/2"
+name: update usage
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "test"
+    }
+parameters: []
+headers:
+  - id: pair_f84e18bc7c2c4cd39cb2a1f99f449d32
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_a1bed4f5b894432aa75e327a27e1d229
+authentication: {}
+metaSortKey: -1652607458392.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

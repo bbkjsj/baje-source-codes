@@ -1,0 +1,25 @@
+_id: req_8332b7af38de47cfa6d8e4479d5ef121
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1638630356774
+created: 1636114503294
+url: "{{server}}/hse/question/bycode/104313"
+name: get question by code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_00838fbc3c354761ac20d0bc80fc6bb9
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1636114503294
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

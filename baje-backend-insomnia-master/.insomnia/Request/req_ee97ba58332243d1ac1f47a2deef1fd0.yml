@@ -1,0 +1,25 @@
+_id: req_ee97ba58332243d1ac1f47a2deef1fd0
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660713667776
+created: 1660564070971
+url: "{{server}}/contract/excel/main?companyId=222"
+name: excel list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1633868881836.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

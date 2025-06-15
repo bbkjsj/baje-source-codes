@@ -1,0 +1,122 @@
+_id: req_d49f9f9e8c7c422ab56c21820f455ed8
+type: Request
+parentId: fld_df1d5f59594c4681b3872878b964927f
+modified: 1665731674649
+created: 1655536141972
+url: "{{ _.server }}/vehicle/376"
+name: edit vehicle
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: description
+      value: testing
+      id: pair_e5732a67f3094069841d1362962db578
+    - id: pair_c5eb851cfa0b42549075956ebb9848d9
+      name: styleId
+      value: "71"
+      description: ""
+    - id: pair_ea7eda08b4ac4990a6961b861354bf86
+      name: typeId
+      value: "39"
+      description: ""
+    - id: pair_934329bdeb41455e9bfcadfc23798623
+      name: ownerId
+      value: "222"
+      description: ""
+    - id: pair_f23764a3fe31467d94702d10d9784711
+      name: status
+      value: enable
+      description: ""
+    - id: pair_a50447bd76c64157b71b41f39a8ea67e
+      name: organizationCode
+      value: "55"
+      description: ""
+    - id: pair_9ad1cc73c5e44fcf9788664f702e0078
+      name: engineNumber
+      value: "1"
+      description: ""
+    - id: pair_f902273ccfc4406eaf2d2b1de49433e1
+      name: chassisNumber
+      value: "11"
+      description: ""
+    - id: pair_30baaac8452d424ab1d5f0fd30ea0b32
+      name: vinNumber
+      value: "221"
+      description: ""
+    - id: pair_447771e2034f495fbb9dcb593807f075
+      name: serialNumber
+      value: "21"
+      description: ""
+    - id: pair_3f70e06c347f4a8e97b2f9911268b8b9
+      name: madeYear
+      value: "1400"
+      description: ""
+    - id: pair_846d33334e404365bda046b3d605c784
+      name: color
+      value: white
+      description: ""
+    - id: pair_60f0549f44d243b6918410916af930de
+      name: gearBox
+      value: manual
+      description: ""
+    - id: pair_a2216a6d2d6b4adcac6bbc6056d9426b
+      name: price
+      value: "4"
+      description: ""
+    - id: pair_17f2885e01f04f05a703dd19dfa10bee
+      name: contractId
+      value: "695"
+      description: ""
+      disabled: true
+    - id: pair_1e92c14182f849c5a995fa3fc535ab52
+      name: ownerType
+      value: company
+      description: ""
+    - id: pair_d54551f0dbf44ed2bca79f2b757717b2
+      name: plaque1
+      value: ۱۰۰
+      description: ""
+    - id: pair_51fb40f6840d4a078ea00459b8af376c
+      name: plaque2
+      value: ۱۰۱
+      description: ""
+    - id: pair_4107f8ababc445b0a3c385c4a195117f
+      name: plaque3
+      value: ۲
+      description: ""
+    - id: pair_e1d6cdf858a44fa98198682d1b346006
+      name: plaque4
+      value: ۲
+      description: ""
+    - id: pair_1d436bd084f342f58f3f8568ed0c97ee
+      name: vehicleCard
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Desktop/homi1.jpg
+    - id: pair_1c6d09b48fe54765aa7ee6a8e24b561c
+      name: vehicleGreenCard
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Desktop/homi2.jpg
+parameters: []
+headers:
+  - id: pair_17b4d4e6b65d418d80df32ab5f0f6b13
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NDk1MDYwMiwiZXhwIjoxNjU1ODE0NjAyfQ.xMHx_GRBWmamUFro5lypLHlDPsNKxp5jGD7LsA6yDsC1NsO3I4lpHjhc1xhSeLkvM1rya7UTfWaqGlsbM_1ahID7LuP-KQXkwNzatz3fyc61BTPcl-Ng5NLJsg_5I8QYH6s_fX8gIbGZhSexs0RwgwGAex812dGegRWLuPEnU1oFStAd6QE7B5Dx9DVTztumCC7kZyGq_FsxtLwdgo0u1C3fIemsFRNlZpxCSC5_0CrSGLkWJDCHjq5TLV2w2YLbH-Ys0boah9PvGuEQsPmzJm3TXUB-t2DfAh1zw6cCs2aXo4KZ_xar6aZ9s0Rq_ottoTILSU-lu39GZS3CNTT1nQ
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_b671e36a9eb144d9b5f0da51d490dfc7
+authentication: {}
+metaSortKey: -1646176820863.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

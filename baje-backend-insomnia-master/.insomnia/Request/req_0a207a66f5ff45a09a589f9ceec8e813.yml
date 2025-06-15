@@ -1,0 +1,38 @@
+_id: req_0a207a66f5ff45a09a589f9ceec8e813
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1639658310973
+created: 1639639454555
+url: "{{server}}/personnel/jobs/1"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"personnel_id_fk" : 1002,
+    	"jobs_id_fk" : 123,
+    	"from_date" : "2021-01-01",
+    	"to_date" : "2022-01-01",
+    	"contract_id_fk" : 1000,
+    	"approved" : true
+    }
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4839c69e5209458688996067e706268f
+authentication: {}
+metaSortKey: -1639609729883.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

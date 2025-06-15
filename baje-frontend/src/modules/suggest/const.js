@@ -1,0 +1,2 @@
+export const SECRETARIAT_COMMITTEE_ID = 11;
+export const EXCELLENT_COMMITTEE_ID = 12;

@@ -1,0 +1,56 @@
+_id: req_802fdb72f3304186a8edbd7af3448f6b
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1639574808072
+created: 1637592662429
+url: "{{server}}/jobs/shift"
+name: jobs shift pattern
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "twewee8888st",
+    	"enabled" : true,
+    	"numberOfTimeOffDays" : 10,
+    	"timespan" : "day",
+    	"calculatePublicHolidays": true,
+    	"calculateExtraWork": false,
+    	"calculateOffWork" : true,
+    	"calculateNight" : false,
+    	"calculateFriday": true,
+    	"publicHolidaysAreOff":false,
+    	"patterns" : [
+    		{
+    			"status" : "work",
+    			"days" : 10,
+    			"from" : "2021/01/01 10:00",
+    			"to" : "2021/01/01 15:00"
+    		},
+    		{
+    			"status" : "rest",
+    			"days" : 10,
+    			"from" : "2021/01/01 15:00",
+    			"to" : "2021/01/01 20:00"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_17795df2e92341399e145a7e88f69e8c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4985f5a16f294ec4ba4f91c28cbe2ee7
+authentication: {}
+metaSortKey: -1637592662429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

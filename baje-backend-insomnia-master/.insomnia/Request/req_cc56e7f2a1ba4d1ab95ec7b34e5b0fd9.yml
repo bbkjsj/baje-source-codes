@@ -1,0 +1,37 @@
+_id: req_cc56e7f2a1ba4d1ab95ec7b34e5b0fd9
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1637559963603
+created: 1637559926303
+url: "{{server}}/jobs/tamin"
+name: create job tamin code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jobId" : 6,
+    	"codes" : [
+    		"10001",
+    		"10002"
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_4436b640671544bcad4a684609e682e9
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_841438bfb3b6431db61411df9487e056
+authentication: {}
+metaSortKey: -1637447985390.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

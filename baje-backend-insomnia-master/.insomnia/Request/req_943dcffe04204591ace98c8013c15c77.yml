@@ -1,0 +1,29 @@
+_id: req_943dcffe04204591ace98c8013c15c77
+type: Request
+parentId: fld_1b37681f2e9a4858bf2ac005abc4f73b
+modified: 1641708642302
+created: 1641708625291
+url: "{{server}}/table-name/column/1"
+name: update column name
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "شناسنامه"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_931ce468591a4b2db225fa8ecb4a95b7
+authentication: {}
+metaSortKey: -1641344890364.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

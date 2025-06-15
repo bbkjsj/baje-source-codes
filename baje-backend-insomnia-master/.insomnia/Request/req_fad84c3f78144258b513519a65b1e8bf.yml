@@ -1,0 +1,36 @@
+_id: req_fad84c3f78144258b513519a65b1e8bf
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1649574062842
+created: 1635776643313
+url: "{{ _.realServer }}/hse/question"
+name: create question
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"question": "AMIR",
+        "group": "individual",
+        "type": "yes/no",
+        "isReverse": false
+    }
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2602fed9daf349a29619b5b5ce806399
+authentication: {}
+metaSortKey: -1635776643313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

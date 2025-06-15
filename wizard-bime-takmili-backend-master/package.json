@@ -1,0 +1,53 @@
+{
+  "name": "baje_insurance_wizard",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx sequelize-cli db:migrate & nodemon server.js",
+    "pro": "npx pm2 start processes.json --env production",
+    "dev": "npx pm2 start processes.json --env development",
+    "migrate": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'build script executed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.baje724.ir/amir/wizard-bime-takmili-backend.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://git.baje724.ir/amir/wizard-bime-takmili-backend/issues"
+  },
+  "homepage": "https://git.baje724.ir/amir/wizard-bime-takmili-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-http-proxy": "^1.6.0",
+    "express-validator": "^6.1.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "mysql2": "^1.6.5",
+    "mysqljs": "0.0.2-security",
+    "node-fetch": "^2.6.0",
+    "node-persist": "^3.0.5",
+    "request-ip": "^2.1.3",
+    "sequelize": "^5.13.1",
+    "sequelize-cli": "^5.5.1",
+    "sharp": "^0.29.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}

@@ -1,0 +1,39 @@
+_id: req_baa9e42a7bd648cfa79b9b2acd11c78c
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1640204527372
+created: 1630675016133
+url: "{{server}}/personnel/subordinates/2299"
+name: update subordinate
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+        "first_name": "ایسان",
+        "last_name": "علوی",
+        "father_name": "علیرضا",
+        "relation": "son",
+        "national_code": "0211622222",
+        "birth_date": "2021/12/20",
+        "sponsorship_status": "under_the_tutelage"
+      }
+parameters: []
+headers:
+  - id: pair_f0ec81b4a8f94142a7aa1d4fbf0aaa36
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_f6a89a9a36bf4da58db4531021836e98
+authentication: {}
+metaSortKey: -1630675016133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

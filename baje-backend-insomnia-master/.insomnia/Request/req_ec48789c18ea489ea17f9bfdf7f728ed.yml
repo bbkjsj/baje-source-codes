@@ -1,0 +1,39 @@
+_id: req_ec48789c18ea489ea17f9bfdf7f728ed
+type: Request
+parentId: fld_2c391b1730634bb8a673e551a4185120
+modified: 1640507624824
+created: 1640338329535
+url: "{{server}}/company/board-members/11"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"company_id_fk" : 123,
+    	"personnel_id_fk" : 9797,
+    	"role" : "MANAGING_DIRECTOR",
+    	"from_date" : "2022-01-01",
+    	"to_date": "2022-03-01",
+    	"enabled" : false,
+    	"description" : "testing again"
+    }
+parameters: []
+headers:
+  - id: pair_900681ab16494ef79add2999ec3297a1
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_53408fc25b8d447eabe6385ba3c8ac61
+authentication: {}
+metaSortKey: -1640203556179.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

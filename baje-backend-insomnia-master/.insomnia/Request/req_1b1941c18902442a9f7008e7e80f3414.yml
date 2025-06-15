@@ -1,0 +1,25 @@
+_id: req_1b1941c18902442a9f7008e7e80f3414
+type: Request
+parentId: fld_f50da8b2e2c2472388c36ee15502f4ee
+modified: 1644831574022
+created: 1642662266280
+url: "{{ _.server }}/tasks/detail/155"
+name: task detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f64483b645b54d9ba5ff17bf74af303b
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1641713113869.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

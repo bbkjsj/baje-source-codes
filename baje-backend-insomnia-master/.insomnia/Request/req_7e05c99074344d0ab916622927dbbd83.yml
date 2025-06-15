@@ -1,0 +1,25 @@
+_id: req_7e05c99074344d0ab916622927dbbd83
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1660456301572
+created: 1640244686998
+url: "{{ _.server }}/personnel/jobs/person/12767?page=1&size=20"
+name: fine one person jobs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639620850610.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

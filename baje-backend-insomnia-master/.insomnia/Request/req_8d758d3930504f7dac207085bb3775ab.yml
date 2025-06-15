@@ -1,0 +1,25 @@
+_id: req_8d758d3930504f7dac207085bb3775ab
+type: Request
+parentId: fld_910835a8f39a4c64a94eb6338161eacf
+modified: 1665392942485
+created: 1655017892159
+url: "{{ _.productionServer }}/vehicle/styles"
+name: get all styles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_62a696438b4a435dbad2b1a799d0ea79
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1655013193686.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

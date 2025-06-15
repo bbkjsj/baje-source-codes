@@ -1,0 +1,59 @@
+_id: req_52aa17ba8e11468898b504250e07c588
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660714454740
+created: 1633960576543
+url: "{{server}}/contract"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"companyId" : 100,
+    	"type" : "main_civil",
+    	"subject" : "test",
+    	"date" : "2021-01-01 00:00:00",
+    	"employer" : "amir",
+    	"contractNumber" : "3",
+    	"contractor"  : "222",
+    	"startDate" : "2020-01-01 00:00:00",
+    	"endDate": "2021-01-01",
+    	"initialAmount" : 1000000,
+    	"workshopCode" : "2",
+    	"row" : "2205",
+    	"consultantCompanyId" : 123,
+    	"managerId" : 111,
+    	"employerId" : 112,
+    	"bossId" : 1,
+    	"contractorType" : "ct",
+    	"contractorId" : 118,
+    	"mainContractId": 10,
+    	"activity" : "mineral",
+    	"contractType" : "EP",
+    	"environmentId": 123,
+    	"priceListYear": 1234,
+    	"adjustmentBaseIndex": 1,
+    	"priceListParts": [1,2,3],
+    	"timeWeight": 123,
+    	"rialWeight": 123123
+    }
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_425d2f9d767747d58cbcad21c9bb6aa8
+authentication: {}
+metaSortKey: -1633960576543
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

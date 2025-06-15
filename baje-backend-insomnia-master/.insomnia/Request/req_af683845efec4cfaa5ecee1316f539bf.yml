@@ -1,0 +1,25 @@
+_id: req_af683845efec4cfaa5ecee1316f539bf
+type: Request
+parentId: fld_7065ade9bc8042b199956eedb781b42d
+modified: 1640069671179
+created: 1639574799885
+url: "{{server}}/jobs/chart/node/18"
+name: delete chart node
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_3a21011569204134b659af2e2e9bd86c
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1639319902282.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

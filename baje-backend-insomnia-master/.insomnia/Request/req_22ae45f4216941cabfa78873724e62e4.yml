@@ -1,0 +1,30 @@
+_id: req_22ae45f4216941cabfa78873724e62e4
+type: Request
+parentId: fld_5f4ff6cf1e84453aa5d2cbb957924f5d
+modified: 1661356053284
+created: 1630583847636
+url: "{{ _.realServer }}/sign"
+name: sign
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username":"0078181119",
+    	"password" :"0078181119"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_47291d6a64b54c35a2f8cf309f3e610c
+authentication: {}
+metaSortKey: -1630583847636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

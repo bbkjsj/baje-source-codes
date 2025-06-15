@@ -1,0 +1,25 @@
+_id: req_074872bcbcc64eb183d070c9ad802412
+type: Request
+parentId: fld_7aba3db1453344758b003484508093b7
+modified: 1642579299305
+created: 1637397713803
+url: "{{server}}/jobs/7"
+name: find one
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7a6d4c4d5dec40d5bfad818cdf054f5f
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1637397713803
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

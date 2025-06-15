@@ -1,0 +1,34 @@
+_id: req_5a797fbe5590405194a821e77deb4e93
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1672645722096
+created: 1672580278614
+url: "{{server}}/access/personnel"
+name: delete personnel access
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"personnelId": 9687,
+    	"accessId": 13
+    }
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY3MjQ3MDM5MiwiZXhwIjoxNjczMzM0MzkyfQ.k2NN_9Nr9YjR1eBB4y25yBeK5x_AdLInFbcHCFOtdZWtlMz9_iI5pw5PWv6hNfedg_VO7ITtcwQsfNrl57EYKHPV1duP6oxCI2jQgflEhv7wBeBIkKgx0VGo6kKRGesgaxr8NT9i7SkQyKrBx_AZfHPYJSrzZfYh5BA734eCh1WuhZTv85aXgPjlDofuDUstau6ZMzHTSjeKgG_DmeEeXlA1aItYjLGvwpvZxGPOLIygys_q_s03lPdONVy1SPn_Xt7FnVoPoe7g9nHeY4UoqWK8ENyZEvPsuy801E3JtsNclO8MSytmPPRh7mBb3AeydXwMVocermw1TGfAJT1gNQ
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7371072f6aa64e048306e756d6394fb8
+authentication: {}
+metaSortKey: -1671885836161.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

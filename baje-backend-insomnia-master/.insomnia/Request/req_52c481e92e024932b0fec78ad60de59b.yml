@@ -1,0 +1,25 @@
+_id: req_52c481e92e024932b0fec78ad60de59b
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1639504827034
+created: 1635924744959
+url: "{{ _.server }}/hse/checklist/82"
+name: find  checklist
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_fcc9168858a74cde97e33c1a83b50592
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1635853868832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

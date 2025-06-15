@@ -1,0 +1,67 @@
+_id: req_5803b1e5f81144f0980cc15cdcdaf70a
+type: Request
+parentId: fld_b6a1bad9245e4063884d4d0f24e64a26
+modified: 1644129924739
+created: 1642013145045
+url: "{{server}}/tasks/condition/123"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Task Testi hastam",
+    	"description": "task testi",
+    	"condition": "",
+    	"negativePoint": 5,
+    	"point": 10,
+    	"ifTaskFailed": "delayed",
+    	"daysAfterCreate": 1,
+    	"priority": "low",
+    	"punishment": "none",
+    	"pageUrl": "asdfasdf",
+    	"referable": 0,
+    	"personnelToInform": [
+    		"16064"
+    	],
+    	"smsNotification": [
+    		"onstart",
+    		"on90percent"
+    	],
+    	"tableId": null,
+    	"enable": 0,
+    	"personnelMembers": [
+    		"16064"
+    	],
+    	"dailySchedule": [
+    		{
+    			"fromDate": "2022-02-06",
+    			"toDate": "2022-03-06",
+    			"hour": 9,
+    			"minute": 45
+    		}
+    	],
+    	"weeklySchedule": [],
+    	"monthlySchedule": [],
+    	"yearlySchedule": [],
+    	"approveCondition": "none"
+    }
+parameters: []
+headers:
+  - id: pair_5d2f06ca1ea7411e8da137c32e3ce478
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2ac7ba8553034e848e26a39ac0c8a056
+authentication: {}
+metaSortKey: -1641762389855.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

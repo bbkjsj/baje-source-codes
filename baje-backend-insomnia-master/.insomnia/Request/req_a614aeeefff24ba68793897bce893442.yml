@@ -1,0 +1,30 @@
+_id: req_a614aeeefff24ba68793897bce893442
+type: Request
+parentId: fld_0749eae317884bf2ab05c3b3c8e4a90a
+modified: 1670660688693
+created: 1662873669098
+url: "{{server}}/family"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: '{"personnelId":11320,"relativeId":70}'
+parameters: []
+headers:
+  - id: pair_baf9f91e2a8743839fc27ac503af4b75
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_07c2654f175347d795935aa45e05d051
+authentication: {}
+metaSortKey: -1659773072483.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

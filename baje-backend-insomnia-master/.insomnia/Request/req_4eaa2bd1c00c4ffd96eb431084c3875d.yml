@@ -1,0 +1,35 @@
+_id: req_4eaa2bd1c00c4ffd96eb431084c3875d
+type: Request
+parentId: fld_661fe3c3ef874b9496f6962e3b0b924a
+modified: 1660565980575
+created: 1660565953207
+url: "{{server}}/contract"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids": [
+    		1,2,3
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_7ae5c836b4d9455f9f65497318f7b876
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d39b65568074e5494b3f249ccce8473
+authentication: {}
+metaSortKey: -1633897095592.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

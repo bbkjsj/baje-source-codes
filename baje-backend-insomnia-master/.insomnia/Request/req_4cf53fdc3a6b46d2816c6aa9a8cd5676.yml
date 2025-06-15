@@ -1,0 +1,36 @@
+_id: req_4cf53fdc3a6b46d2816c6aa9a8cd5676
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1639425644434
+created: 1635777408773
+url: "{{server}}/hse/question/1"
+name: update question
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"group": "individual",
+    	"question" : "question 1",
+    	"type" : "rate",
+    	"isReverse" : true
+    }
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2602fed9daf349a29619b5b5ce806399
+authentication: {}
+metaSortKey: -1635722255104.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

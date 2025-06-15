@@ -1,0 +1,25 @@
+_id: req_52a40d4c83ac4f83894d056445f49475
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1660395667449
+created: 1639658389968
+url: "{{ _.server }}/personnel/jobs?page=1&size=10"
+name: find all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1OTc2MjY0NSwiZXhwIjoxNjYwNjI2NjQ1fQ.KbXwjNJq1iZtiUOiN53su_QyIVayahgheS6lfJvsXBmNjDKea-ZZVab6DfMPcgXHpCVXMvBsXZtXX1RDqP3q4n527wv-AkJben0QmyXBCUAhCPZCXWgUvwunh7krwjWrn1kQBiU07hJuUSy16ixMZUbO_P66bPjylQadZthSkpHDOkWnGZBaBVzHGHa5d2NqDLb0YU9zIMgv9d7AEkaY2r6tBvmeOmBLsa52Ww-OW8YHpUrAknbsXW03wwOUeV3-rwvKv1VaqcW-9UnLzLg8NMUFdpqGbyFTxML9nx-Qf_BUAH8EBpkqM-X3UucWhac1jWcW9jzxHuFsDMb4yUBPuw
+    description: ""
+authentication: {}
+metaSortKey: -1639624557519.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

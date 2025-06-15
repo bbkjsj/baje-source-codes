@@ -1,0 +1,95 @@
+_id: req_b7f0a59ef5cb44638695f7b8c43ebb87
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1639545266508
+created: 1636707596567
+url: "{{server}}/hse/audit/144"
+name: edit audit
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2021/12/15",
+    	"minimumPoint": 11,
+    	"draft": false,
+    	"questions": [
+    		{
+    			"id": 1748,
+    			"audit_id_fk": 144,
+    			"question": "سوال نوع هیچ تا خیلی زیاد",
+    			"question_id_fk": 41,
+    			"answer": "0",
+    			"critical": "0",
+    			"weight_factor": 1,
+    			"requirements": null,
+    			"description": null,
+    			"group": "individual",
+    			"type": "nothing/more",
+    			"code": "104039",
+    			"is_not_related": null,
+    			"operator_description": null,
+    			"is_reverse": false,
+    			"questionId": 41,
+    			"isReverse": false
+    		},
+    		{
+    			"id": 1749,
+    			"audit_id_fk": 144,
+    			"question": "این یه سوال برعکس نیست",
+    			"question_id_fk": 112,
+    			"answer": "0",
+    			"critical": "0",
+    			"weight_factor": 1,
+    			"requirements": null,
+    			"description": null,
+    			"group": "individual",
+    			"type": "rate",
+    			"code": "102200",
+    			"is_not_related": null,
+    			"operator_description": null,
+    			"is_reverse": false,
+    			"questionId": 112,
+    			"isReverse": false
+    		},
+    		{
+    			"id": 1750,
+    			"audit_id_fk": 144,
+    			"question": "این یه سوال برعکس است",
+    			"question_id_fk": 113,
+    			"answer": "0",
+    			"critical": "0",
+    			"weight_factor": 1,
+    			"requirements": null,
+    			"description": null,
+    			"group": "individual",
+    			"type": "low/high",
+    			"code": "108624",
+    			"is_not_related": null,
+    			"operator_description": null,
+    			"is_reverse": true,
+    			"questionId": 113,
+    			"isReverse": true
+    		}
+    	],
+    	"personnel_id_fk": 16064
+    }
+parameters: []
+headers:
+  - id: pair_ec2d2d63ba2340d481e3bc444bc9d7f2
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjE2MDY0LCJmaXJzdF9uYW1lIjoi2LHYttinIiwibGFzdF9uYW1lIjoi2YLZh9ix2YXYp9mG24wiLCJjb21wYW55X2lkIjoxMTksImNvbXBhbnlfbmFtZSI6ItmG2q_bjNmGINqv2YfYsdiy2YXbjNmGINiz24zYsdis2KfZhiIsInN1cGVyIjpmYWxzZSwiaW1hZ2VfdXJsIjpudWxsLCJnZW5kZXIiOiJtIiwiaXNfZG9jdG9yIjpmYWxzZX0sImlhdCI6MTYzNjAyNjI3NCwiZXhwIjoxNjM2ODkwMjc0fQ.rU6NQljSNg3m-4OpYJ96AfqQ4l2gVaI3S74HEAE_5Z3U-P6LbdwkRVZ9jsaExJSKfQLCxb6VoWGobUwcD7emsSus5UqGkJl7TTEzqxo8zM1_eI5xA6yfX8yG82tw0vQiVtAMuOgtSCdmRMEeCm3ky-imZHAKI2dle0o8yKNuld1-5LRaa14lyzjRr56lMypZhidMjFZBz74Ly7Ms_ej9jk3lLNE7x6nr1LNC1J1Ky8LmuDqjrdOkkq5qJQEDi9S6VbZWGt5E0mfIqH6vN4aEL1s4ruwx8gLF4smoKEjxH8tN9nZUvS-4dyFJ1t_rB9sT7dsZLM3Vj82D0Qg2d7_SvA
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_0280e198480549f4b3c8a7632d008eaf
+authentication: {}
+metaSortKey: -1636699564893.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

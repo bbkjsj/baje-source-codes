@@ -1,0 +1,106 @@
+_id: req_5f6d02ac94d847298273fc5f8d4d1512
+type: Request
+parentId: fld_97ce5d471d4c41599b00f8c1d0538d6b
+modified: 1656050570013
+created: 1655820234020
+url: "{{server}}/insurance/third-party/16"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2f345685dc384d4f99147fea6698f70e
+      name: machineOrganizationCode
+      value: "1"
+      description: ""
+    - id: pair_f03bea0e53474b1bbdded72affd0a711
+      name: insuranceIdentification
+      value: "1"
+      description: ""
+    - id: pair_0e9b0396edb3409c9f9fb58939e15b28
+      name: insuranceNumber
+      value: "123"
+      description: ""
+    - id: pair_27d2125d670740579ebe04ddf41e141c
+      name: vehicleId
+      value: "1123"
+      description: ""
+    - id: pair_551ca89dd37946c6ad3758f0a7e58bbf
+      name: insurerCompanyId
+      value: "222"
+      description: ""
+      disabled: true
+    - id: pair_0237eea0563e4d4d8eeb51ce926a359f
+      name: insurerPersonnelId
+      value: "9710"
+      description: ""
+      disabled: false
+    - id: pair_1c8c65b54c894df581e90cf48d35a51a
+      name: fromDate
+      value: 2020-01-01
+      description: ""
+    - id: pair_32d5601467684c9ea37f543dfd88fe9d
+      name: toDate
+      value: 2020-12-12
+      description: ""
+    - id: pair_fdcdc1d0d52e467fa30ee585f68b88cd
+      name: noDamageHistory
+      value: "123"
+      description: ""
+    - id: pair_4b1e4aca32cf4612b3448074a37330ec
+      name: insurance
+      value: "123"
+      description: ""
+    - id: pair_73c9d8da76f740adb597243e36df2334
+      name: deliverToPersonnelId
+      value: "9710"
+      description: ""
+    - id: pair_106d770185b24bfeb72c7df072896f85
+      name: maxCommitmentFinancialDamanges
+      value: "2131"
+      description: ""
+    - id: pair_159182c4f2d249faae9ca2491f020c5a
+      name: maxCommitmentInjury
+      value: "123123"
+      description: ""
+    - id: pair_f1e740c679ba436a875f1fdc6ad3aa22
+      name: maxCommitmentDriver
+      value: "123132"
+      description: ""
+    - id: pair_ba4750871dad4221b28aff8e1e8ea0c9
+      name: description
+      value: testing
+      description: ""
+    - id: pair_fcbb4ae3dec34fe686c0e8c8a36f6a53
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/image (4).png
+    - id: pair_903cf02295e749909afc2a8082ec19d8
+      name: insuranceCompanyId
+      value: "12312313"
+      description: ""
+    - id: pair_b52ff8b1568649f689dec8f3a2151b30
+      name: status
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - id: pair_8e8b441b71024f16a642bbc45195c4de
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1NTcyMjcwNSwiZXhwIjoxNjU2NTg2NzA1fQ.OGWpe-YAuQG2CZM6XsKpFGU6Z92al9MGxiW30UInck82NTC3DRuOoDWogV_I94vcYBjE_wSclkqabV1EwHYD4Ba2pKvllKB-btL0OrHloU-RTWTKwHGjZIg2Op_akzefKcFntsUTzrv9bbeM2NA2J3nIafyYDacgaWcwk57VXPPezrYvuYza9nVGPikFua77BnjnQe_4z2o9IdT2aPQeJa1aJp_UmCqwhshszRXtNku8OQiGhtlVFzKq-ZHPgb7Sx8vs675TdcdXJoA3ZEPqUOTe-UN3KA4KACneP0LlVSnMiim8vjw9D07YzPIgLDG2-bnmnlpnXUwNfoEdyRL5Yg
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_6ab1a6a1962049bf9c9430f8a22182a9
+authentication: {}
+metaSortKey: -1655370485135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

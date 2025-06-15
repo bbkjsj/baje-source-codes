@@ -1,0 +1,31 @@
+html {
+  direction: rtl;
+}
+
+p {
+  padding: 0;
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 10px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=main.min.css.map */
+.empty-img {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}

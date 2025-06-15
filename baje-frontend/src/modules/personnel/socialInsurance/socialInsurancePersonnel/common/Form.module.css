@@ -1,0 +1,41 @@
+.divColumn {
+  display: flex;
+  justify-self: right;
+}
+
+.first {
+  width: 50%;
+}
+
+.two {
+  padding: 25px;
+  width: 25%;
+  height: -moz-fit-content;
+}
+
+.twoDetails {
+  padding: 25px;
+  background: #eef0f2;
+  border-radius: 4px;
+  border: dashed 1px #000;
+}
+
+.tableFirst {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trAll {
+  vertical-align: baseline;
+  text-align: right;
+}
+
+.tdRight {
+  text-align: end;
+  padding: 10px;
+}
+
+.tdLeft {
+  width: 60%;
+}

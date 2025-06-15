@@ -1,0 +1,24 @@
+_id: env_5fab1df6f45b4be398a54a0623731c7f
+type: Environment
+parentId: env_98f3ccb58d6c2998f223594e45d1c678eaf19741
+modified: 1661581590116
+created: 1630560093723
+name: jahad nasr
+data:
+  server: http://localhost:4004/api/v1/baje
+  realServer: https://test.baje724.ir/api/v1/baje
+  productionServer: https://baje724.ir/api/v1/baje
+  adminToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTY5OSwiY29tcGFueUlkIjoxMTksImlzRG9jdG9yIjpmYWxzZSwiaXNTdXBlciI6dHJ1ZSwiaWF0IjoxNjYxMzU1NzY2LCJleHAiOjE2NjQ5NTU3NjZ9.g-PUJ-6VwppPR-rSBbYE1wMqYc-C7K2w6T1ZBJpvkCQ
+  babak: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ODUzLCJjb21wYW55SWQiOjExOSwiaXNEb2N0b3IiOmZhbHNlLCJpc1N1cGVyIjp0cnVlLCJpYXQiOjE2NjEzNTYxMDEsImV4cCI6MTY2NDk1NjEwMX0.aTSC3xVlOBkuW1P3USdDX-aOVH5Gcn75h789oJEL6po
+  amir: applepaper
+dataPropertyOrder:
+  "&":
+    - server
+    - realServer
+    - productionServer
+    - adminToken
+    - babak
+    - amir
+color: null
+isPrivate: false
+metaSortKey: 1630560093723

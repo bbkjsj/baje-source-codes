@@ -1,0 +1,36 @@
+_id: req_b9cce0e3eb88432ab8102a21802d226c
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1645001777951
+created: 1644343982891
+url: "{{server}}/personnel/document/34780"
+name: update documents
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_b7e81df9a76247ffa8f0f66282578a20
+      name: army_service_card
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/slack.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_2fe234ef9fa3413281e64fc9f4e90539
+  - id: pair_8447fe08f2db4ecdbf97ed8189b1c055
+    name: Authorization
+    value: "{{rezaToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1644343982891
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

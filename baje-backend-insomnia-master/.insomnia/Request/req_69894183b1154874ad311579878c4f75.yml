@@ -1,0 +1,37 @@
+_id: req_69894183b1154874ad311579878c4f75
+type: Request
+parentId: fld_5c6f84560b764c0dbd6c0427d03bba33
+modified: 1660545777380
+created: 1639639385156
+url: "{{server}}/personnel/jobs"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"personnel_id_fk": 12767,
+    	"jobs_id_fk": 21,
+    	"from_date": "2022-08-02",
+    	"to_date": "2022-08-22",
+    	"chart_id_fk": 68
+    }
+parameters: []
+headers:
+  - id: pair_c3bea08c90424817a44f4a927bb2d5e7
+    name: Authorization
+    value: "{{adminToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_4839c69e5209458688996067e706268f
+authentication: {}
+metaSortKey: -1639639385156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

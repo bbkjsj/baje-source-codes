@@ -1,0 +1,30 @@
+_id: req_8151fc622b964149af5fbd2ff1e9965e
+type: Request
+parentId: fld_5f4ff6cf1e84453aa5d2cbb957924f5d
+modified: 1661356130900
+created: 1630597139576
+url: "{{ _.realServer }}/sign/verify"
+name: verify
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 853,
+    	"code" : "54848"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2929fe1589f7423286c14a7e88ff67d3
+authentication: {}
+metaSortKey: -1630597139577
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

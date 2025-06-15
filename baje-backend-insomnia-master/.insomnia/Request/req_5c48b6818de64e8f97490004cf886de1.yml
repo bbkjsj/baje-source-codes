@@ -1,0 +1,25 @@
+_id: req_5c48b6818de64e8f97490004cf886de1
+type: Request
+parentId: fld_b6a1bad9245e4063884d4d0f24e64a26
+modified: 1642662254943
+created: 1642013321584
+url: "{{ _.server }}/tasks/condition/65"
+name: find one condition
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ec33818480894ec3b0bf6517f0cecbf0
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1641811800930
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

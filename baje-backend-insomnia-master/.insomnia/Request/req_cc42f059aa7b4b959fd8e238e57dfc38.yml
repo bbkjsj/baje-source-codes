@@ -1,0 +1,59 @@
+_id: req_cc42f059aa7b4b959fd8e238e57dfc38
+type: Request
+parentId: fld_7065ade9bc8042b199956eedb781b42d
+modified: 1659250116149
+created: 1639563406158
+url: "{{server}}/jobs/chart"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "testing",
+    	"environment_id_fk" : 1080,
+    	"enable": false,
+    	"apply_date" : "2021-12-01",
+    	"company_id_fk" : 1009,
+    	"description" : "testing description",
+    	"nodes": [
+    		{
+    			"title" : "level 1",
+    			"count" : 2,
+    			"jobs_tamin_code_id_fk": 100,
+    			"nodes": [
+    				{
+    					"title" : "level1 - 1",
+    					"count" : 3,
+    					"jobs_tamin_code_id_fk" : 101,
+    					"nodes" : [
+    						{
+    							"title" : "level1-1 2",
+    							"count":1,
+    							"jobs_tamin_code_id_fk": 102
+    						}
+    					]
+    				}
+    			]
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0fe1641b592746cca854ac0304b0488b
+  - id: pair_3a21011569204134b659af2e2e9bd86c
+    name: Authorization
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjg1MywiZmlyc3RfbmFtZSI6Iti52YTbjNix2LbYpyIsImxhc3RfbmFtZSI6Itis2YfYp9mGINi02KfZh9uMINis2YjYp9ix2KfZhiIsImNvbXBhbnlfaWQiOjExOSwiY29tcGFueV9uYW1lIjpudWxsLCJzdXBlciI6MSwiaW1hZ2VfdXJsIjoiL2FwaS9pbWFnZS9wZXJzb25uZWwvMjAxMTI3MDUyNjU3LmpwZyIsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlLCJkZWZhdWx0SG9tZVBhZ2UiOm51bGwsImRlZmF1bHRDb21wYW55SWQiOjIyMn0sImlhdCI6MTY1ODgzMTgyMCwiZXhwIjoxNjU5Njk1ODIwfQ.qEqmfXu2gchX9jRB6qcHr-F36BsEx5rF4Tm58uNfWpTCYxNY9BEwVbdTR0rhZOwjSyQvJBcIhGK4LbUwaQdTLbAPwVtLyQ2K7-CmVj2fpvMSRkLLMNbfSIlf4cLhQiNNHYD_RcOHABlPLwjF6PFaH8DGjzYNMGEKLJ5K6-IHtkIwbhu7wPaoenASRofc3sZYscDLwrj2eqrwGnuTQ-VbiD7nRbprTGu0Q4eBjTD6eXHJvZ_v_cTzfrx2nndrbnTAigKbGP6llyo1E3-UZZSv59g1NGTXnkUEHtJjBgfq8tPOxQQjSCCF8-eZQlxKN-BeXE6v17B1urs0X6LaCgSPZg
+    description: ""
+authentication: {}
+metaSortKey: -1639563406158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

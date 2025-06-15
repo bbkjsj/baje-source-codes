@@ -1,0 +1,435 @@
+{
+	"info": {
+		"_postman_id": "d592db5e-b3ca-413c-ba7e-43a557c3c7f6",
+		"name": "Insurance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insurance",
+			"item": [
+				{
+					"name": "getByCompanyId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/insurance/insuranceByCompany/-1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance",
+								"insuranceByCompany",
+								"-1"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/insurance/details/68",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance",
+								"details",
+								"68"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getَUserInsurance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/insurance",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUserInsuranceDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/insurance/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "383"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getUserInsuranceDetails",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/insurance/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"insurance",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "377"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "addInsurance",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"insuranceId\": \"88\",\n    \"description\": \"test Insurance\",\n    \"subordinates\": [\n        {\n            \"id\": \"2097\",\n            \"description\": \"test\"\n        },\n        {\n            \"id\": \"2114\",\n            \"description\": \"test\"\n        },\n        {\n            \"id\": \"2115\",\n            \"description\": \"test\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/insurance",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modifyInsurance",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"description\": \"test Insurance 222\",\n    \"subordinates\": [\n        {\n            \"id\": \"2097\",\n            \"description\": \"test 1\"\n        },\n        {\n            \"id\": \"2114\",\n            \"description\": \"test 2\"\n        },\n        {\n            \"id\": \"2115\",\n            \"description\": \"test 3\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/insurance/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "377"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete insurance",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/insurance/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"insurance",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "383"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete insurance",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/insurance/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"insurance",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "369"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "getCurrentUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/user",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user subordinates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/user/subordinates",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"user",
+								"subordinates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add subordinate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"test son\",\n    \"last_name\": \"son of saman\",\n    \"relation\": \"son\",\n    \"sponsor_date\": \"2021-10-01 15:30\",\n    \"father_name\": \"azim\",\n    \"id_number\": \"1234567890\",\n    \"birth_date\": \"1989-10-01 15:30\",\n    \"issue_place\": \"anzali\",\n    \"insurance_number\": \"1234567890\",\n    \"national_code\": \"1234567890\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/user/subordinate",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"user",
+								"subordinate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modify subordinate",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"test son\",\n    \"last_name\": \"son of saman\",\n    \"relation\": \"son\",\n    \"sponsor_date\": \"2021-10-01 15:30\",\n    \"father_name\": \"azim\",\n    \"id_number\": \"1234567890\",\n    \"birth_date\": \"1989-10-05 15:30\",\n    \"issue_place\": \"anzali\",\n    \"insurance_number\": \"1234567890\",\n    \"national_code\": \"1234567890\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/user/subordinate/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"user",
+								"subordinate",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "2116"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "modify subordinate",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"first_name\": \"test son\",\n    \"last_name\": \"son of saman\",\n    \"relation\": \"fathers\",\n    \"sponsor_date\": \"2021-10-01 15:30\",\n    \"father_name\": \"azim\",\n    \"id_number\": \"1234567890\",\n    \"birth_date\": \"1989-10-01 15:30\",\n    \"issue_place\": \"anzali\",\n    \"insurance_number\": \"1234567890\",\n    \"national_code\": \"1234567890\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/user/subordinate/:id",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"user",
+										"subordinate",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "2116",
+											"description": "subordinate ID"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTW9kZWwiOnsiaWQiOjE2MDQ0LCJmaXJzdF9uYW1lIjoi2LPYp9mF2KfZhiIsImxhc3RfbmFtZSI6Itiu2KfYr9mF24wiLCJjb21wYW55X2lkIjoxMTgsImNvbXBhbnlfbmFtZSI6Itis2YfYp9ivINmG2LXYsSDaqdix2YXYp9mGIiwic3VwZXIiOmZhbHNlLCJpbWFnZV91cmwiOm51bGwsImdlbmRlciI6Im0iLCJpc19kb2N0b3IiOmZhbHNlfSwiaWF0IjoxNjMyMjUzMjYxLCJleHAiOjE2MzI0MjYwNjF9.vbCqTmnl2smcLynLSSeGXpCVAU24e4yq5Zew-u1nH1MJGv9ByYgruhDKmy-4wgDS4Kyl31VSyvmRcG1XKfC7-jd_EKGTXWKlDOD8Xy1o9JlN56KA_qMrcNtEIsV_sGILY742SHHGi1iRM_ICGLQSXQzLNQuSrqwbPfzBEor2eeZu40nvGci8EtMzNKFhgKKpP0-Y157RTOglp51BF2vDp0SKSHc5gEC1l31aii8TMhozWbwEkTGuRL6_BkiLQt1fZOj1KXi6Mnf98NqUjrC1MIKiAC3UHtljBYeeN1lrFN-psR3qw7wCX_QCqRGtyfoykzz04Lzo0AOuUvIp6GBLBQ",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "authorization",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

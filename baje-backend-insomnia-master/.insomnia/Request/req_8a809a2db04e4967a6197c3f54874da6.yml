@@ -1,0 +1,56 @@
+_id: req_8a809a2db04e4967a6197c3f54874da6
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1641188493966
+created: 1636702742026
+url: "{{server}}/hse/audit"
+name: audit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2021/11/24",
+    	"questions": [
+    		{
+    			"minimum_point": 3,
+    			"id": 30,
+    			"_group": "individual",
+    			"question": "آیا عینک محافظ دارد؟",
+    			"questionId": 30,
+    			"type": "yes/no",
+    			"code": "102760",
+    			"weight_factor": 1,
+    			"critical": "4",
+    			"requirements": null,
+    			"description": null,
+    			"group": "individual",
+    			"answer": "test",
+    			"isNotRelated" : true,
+    			"operatorDescription":"testing",
+    			"isReverse": true
+    		}
+    	],
+    	"draft": true,
+    	"minimumPoint": 3,
+    	"personnel_id_fk": 16064
+    }
+parameters: []
+headers:
+  - id: pair_ec2d2d63ba2340d481e3bc444bc9d7f2
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_0280e198480549f4b3c8a7632d008eaf
+authentication: {}
+metaSortKey: -1636702742026
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

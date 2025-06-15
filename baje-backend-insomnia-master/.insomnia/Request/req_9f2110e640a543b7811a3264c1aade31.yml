@@ -1,0 +1,33 @@
+_id: req_9f2110e640a543b7811a3264c1aade31
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631785409873
+created: 1631785368997
+url: "{{server}}/time-off"
+name: delete many
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids" : [169]
+    }
+parameters: []
+headers:
+  - id: pair_2d0608175a4b491ca0cd6c71ccd08b14
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_dea84e44e5074c379fba2202b1fe4ba1
+authentication: {}
+metaSortKey: -1631785368997
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_cb611adb5bf841d4a6956f852cf7dfea
+type: Request
+parentId: fld_b116ea2f53444bc4a49c92b3106fb9ec
+modified: 1671887966045
+created: 1671887394057
+url: "{{server}}/access/prerequisite"
+name: add prerequisite
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accessCode": 11112,
+    	"prerequisiteIds": [
+    		2,
+    		4,
+    		100
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_8ba9895482d444f585e81ed6839a48b6
+    name: authorization
+    value: "{{amir}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671887394057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

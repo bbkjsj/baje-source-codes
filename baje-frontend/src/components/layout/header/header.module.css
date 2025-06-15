@@ -1,0 +1,38 @@
+.header {
+  border-bottom: 1px solid #e7eaec !important;
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: rgb(231, 234, 236) !important;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 0 10px !important;
+
+  /* height: unset !important; */
+  /* line-height: unset !important; */
+}
+
+.fix_header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.logout {
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.logoutText {
+  margin-right: 0.5rem !important;
+}
+
+.iconMenu {
+  font-size: 1.2rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}

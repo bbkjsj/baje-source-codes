@@ -1,0 +1,42 @@
+_id: req_d41cd4ff15194daa9e8b757bd6670a4f
+type: Request
+parentId: fld_5cd8f2782be244ed97f9fb7639670cb0
+modified: 1631539333607
+created: 1631097214603
+url: "{{server}}/damage-service"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "خسارت",
+    	"personnel_id": 9807,
+    	"date": "2021/02/01",
+    	"description": "description",
+    	"type_service_damage": "type damage",
+    	"type_reward_penalty": "100",
+    	"amount_reward_penalty": "reward",
+    	"hr_approved": false,
+    	"project_admin_approved": false,
+    	"manager_approved": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cbe71ac1d927483f8739a53b74281107
+  - id: pair_6d327cbc344742c691fc19696cd18ac1
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+authentication: {}
+metaSortKey: -1631097214603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

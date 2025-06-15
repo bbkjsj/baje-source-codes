@@ -1,0 +1,44 @@
+_id: req_e5d2674b82584dd78f9a14b76967640d
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1638610481880
+created: 1635783956511
+url: "{{server}}/hse/checklist"
+name: create checklist
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"group": "individual",
+    	"jobsId": 4,
+    	"minimumPoint": 3,
+    	"type": "public",
+    	"questions": [
+    		{
+    			"questionId": 30,
+    			"type": "public",
+    			"weight_factor": 1,
+    			"critical": "4"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_122952c7e11b4e7daf7f223e67be4b96
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_94ade453e1b24b559db14cae985fe57d
+authentication: {}
+metaSortKey: -1635783956575
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

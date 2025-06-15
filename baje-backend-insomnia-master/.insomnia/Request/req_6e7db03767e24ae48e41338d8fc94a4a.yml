@@ -1,0 +1,59 @@
+_id: req_6e7db03767e24ae48e41338d8fc94a4a
+type: Request
+parentId: fld_26fb604924994d369066256d06df72a5
+modified: 1631784939870
+created: 1631784898838
+url: "{{server}}/time-off/169"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e2e87fb9714d4bdfb25238fced0670db
+      name: personnel_id
+      value: "9699"
+      description: ""
+      disabled: true
+    - id: pair_8bbaffa2d5bc48c8919bb5d3a54d30be
+      name: type
+      value: استعلاجی
+      description: ""
+      disabled: true
+    - id: pair_ca02f8700525429aa4a7766f39c6f7e1
+      name: request_type
+      value: ساعتی
+      description: ""
+      disabled: true
+    - id: pair_79342c8c972a47878b27caf55fad1358
+      name: from_date
+      value: 2021-01-01 13:00:00
+      description: ""
+      disabled: true
+    - id: pair_6d0cac74616449c9a7684cfd396b9ba9
+      name: to_date
+      value: 2021-01-01 17:00:00
+      description: ""
+      disabled: true
+    - id: pair_12f7749c28e7423394cbe46e9ba9b6d0
+      name: description
+      value: ویرایش توضیحات
+      description: ""
+parameters: []
+headers:
+  - id: pair_570cfb7384bc4a30babe1ae6baa3d656
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_146a6d3c30904cbca24f08e8bc154585
+authentication: {}
+metaSortKey: -1631738949288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

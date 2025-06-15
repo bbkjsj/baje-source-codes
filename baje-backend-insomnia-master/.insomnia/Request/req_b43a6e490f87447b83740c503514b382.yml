@@ -1,0 +1,25 @@
+_id: req_b43a6e490f87447b83740c503514b382
+type: Request
+parentId: fld_386fea2ab3f44c30b23c8a622ef758db
+modified: 1638513754285
+created: 1638206206765
+url: "{{ _.server }}/hse/jobs"
+name: find all jobs for hse
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_70f03110c0b74db38c238b066e91e75e
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+authentication: {}
+metaSortKey: -1635674665422.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

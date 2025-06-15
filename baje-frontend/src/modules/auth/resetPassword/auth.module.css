@@ -1,0 +1,86 @@
+body {
+  background-color: #f3f3f4;
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../../../assets/img/background.jpg);
+  background-color: rgba(f, f, f, 0.5);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  background-repeat: no-repeat;
+}
+
+.space-evnly {
+  justify-content: space-evenly;
+}
+
+.centerBox {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logoImage {
+  width: 35%;
+  transition: all 0.2s linear;
+}
+
+.welcomeText {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #f1f2f6;
+}
+
+.infoText {
+  color: #f1f2f6;
+  font-family: "Peyda-Regular";
+  font-size: 1.1em;
+  word-spacing: 5px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.loginForm {
+  margin-top: 20px !important;
+}
+
+.loginInput {
+  padding: 6px 12px;
+  font-size: 1.2em;
+  color: #495057;
+  width: 100%;
+}
+
+.loginInput::placeholder {
+  color: #495057;
+}
+
+.loginButton {
+  text-align: center;
+}
+
+.loginForgetPassC {
+  text-align: center;
+}
+
+.loginForgetPassLink {
+  color: #ffa502;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.restPassBtnContainer {
+  display: flex;
+}
+
+.displayFlex {
+  display: flex;
+}

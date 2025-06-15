@@ -1,0 +1,33 @@
+_id: req_440b9efdd80941de896438338101cad0
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1631017985962
+created: 1631017900592
+url: "{{server}}/personnel/many"
+name: delete personnels
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids" : [16010, 16009, 16008]
+    }
+parameters: []
+headers:
+  - id: pair_d11c81a12f7c42409d346f6d489d6191
+    name: Authorization
+    value: "{{amirzandi}}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_3a38f33701204fcab0f13647fa9d7048
+authentication: {}
+metaSortKey: -1631017900592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

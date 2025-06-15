@@ -1,0 +1,15 @@
+/* .tableStripedSows tr:nth-child(2n) td {
+  background-color: #fbfbfb;
+} */
+.tableStripedSows thead {
+  background-color: #f1f1f1;
+}
+
+.tableStripedSows {
+  box-shadow: 0 4px 8px 0 rgba(19, 37, 71, 0.1);
+  background-color: #fff;
+}
+
+.rowHiLight {
+  background-color: rgba(255, 165, 2, 0.3) !important;
+}

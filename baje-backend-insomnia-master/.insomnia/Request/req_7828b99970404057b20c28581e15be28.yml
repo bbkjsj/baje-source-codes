@@ -1,0 +1,104 @@
+_id: req_7828b99970404057b20c28581e15be28
+type: Request
+parentId: fld_77b820805043471eb96ae422887c9eaa
+modified: 1662875045042
+created: 1630658064818
+url: "{{server}}/personnel/16057"
+name: update personnel
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_1ed8abaf96f94e36bb3df82dd51a339c
+      name: first_name
+      value: محمد امیر
+      description: ""
+    - id: pair_f39c2bcce12147f29b89a17f43f8ddbd
+      name: last_name
+      value: زندی
+      description: ""
+    - id: pair_7ea6c46f24e54aed87bb1ecbd5c663e6
+      name: father_name
+      value: جمشید
+      description: ""
+    - id: pair_e2e2811c8b0543eb9f367513627083ea
+      name: id_number
+      value: "63"
+      description: ""
+    - id: pair_9fb00fd1e5d54342aed099f231e100fa
+      name: sex
+      value: m
+      description: ""
+    - id: pair_40826f94850e48128e61766fa011d7cd
+      name: birth_place
+      value: کرمان
+      description: ""
+    - id: pair_901c1c93b6af430eaacf4cb2526d01c1
+      name: nation
+      value: ایرانی
+      description: ""
+    - id: pair_7523dd25954e4b889ff346d42c6dff98
+      name: national_number
+      value: "2992280704"
+      description: ""
+      disabled: true
+    - id: pair_c5c656ff45f14e6d9e8fcc5c825e7be7
+      name: password
+      value: apple
+      description: ""
+    - id: pair_2d354f50d6de4fdba42a75f48cd9d08f
+      name: contract_id_fk
+      value: "-1"
+      description: ""
+    - id: pair_61626348b7d441dabff80497a73cadc1
+      name: mobile1
+      value: "09123872203"
+      description: ""
+      disabled: false
+    - id: pair_ce7fa527b36749fe84131c709eca105d
+      name: national_card_front
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/cover.jpg
+    - id: pair_6e828519bc1a425c9488526646090d88
+      name: national_card_rear
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/amir/Downloads/cover.jpg
+    - id: pair_ddb92aa297f44fb8ace13491d93ff386
+      name: permissions[0][access]
+      value: person/insert
+      description: ""
+    - id: pair_5475864037be45ecad22fd6cb80adab4
+      name: permissions[0][company_id_fk]
+      value: "-1"
+      description: ""
+    - id: pair_fd4672375f1d482090d649e5544a0211
+      name: job_title_id
+      value: "19012"
+      description: ""
+    - id: pair_65ef5aeeb7da44c78ff673aebb72e47e
+      name: email
+      value: amir.zandi@gmail.com
+      description: ""
+parameters: []
+headers:
+  - id: pair_b2c3ee1a9f264ed8ac17613b53fe5902
+    name: Authorization
+    value: "{{bajeToken}}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_9fa473f496914a8aabe6e9958ea152af
+authentication: {}
+metaSortKey: -1630608502418.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

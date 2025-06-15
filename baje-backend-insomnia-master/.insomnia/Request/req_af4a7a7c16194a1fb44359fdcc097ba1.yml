@@ -1,0 +1,25 @@
+_id: req_af4a7a7c16194a1fb44359fdcc097ba1
+type: Request
+parentId: fld_0ddbf15699b940fe838cee8cc765e5a0
+modified: 1667202986709
+created: 1667202657405
+url: "{{server}}/insurance/takmili/personnel/86/excel"
+name: personnel-excel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ae77225c0f814fcda169851f759dac8e
+    name: Authorization
+    value: "{{amir}}"
+    description: ""
+authentication: {}
+metaSortKey: -1664634696174.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
